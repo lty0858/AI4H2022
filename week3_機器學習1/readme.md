@@ -31,6 +31,10 @@
 - [Next-Generation Machine Learning with Spark](https://link.springer.com/book/10.1007/978-1-4842-5669-5)
   - [基於 Spark 的下一代機器學習](https://www.tenlong.com.tw/products/9787111681250?list_name=srh) 
 - [Machine Learning with Spark - Second Edition(2017)](https://www.packtpub.com/product/machine-learning-with-spark-second-edition/9781785889936)
+- [pyspark@Docker](https://hub.docker.com/r/jupyter/pyspark-notebook)
+  - https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html
+  - https://towardsdatascience.com/pyspark-f037256c5e3
+  - [pyspark Documentation](https://spark.apache.org/docs/latest/api/python/)
 
 # Machine Learning on Kubernetes
 - [Machine Learning on Kubernetes(2022)](https://www.packtpub.com/product/machine-learning-on-kubernetes/9781803241807)
