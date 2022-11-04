@@ -40,5 +40,6 @@
 
 ## Week 6:人工智慧2
 - RNN
+## Week 7:人工智慧3
 - VAE
 - GAN
