@@ -25,3 +25,4 @@
 ### Bokeh互動式資料視覺化技術
 
 ### Plotly互動式資料視覺化技術
+- [Python Plotly tutorial](https://www.geeksforgeeks.org/python-plotly-tutorial/?ref=lbp)
