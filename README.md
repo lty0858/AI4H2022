@@ -4,7 +4,7 @@
 - 資料科學
 - numpy技術
 - 資料視覺化
-  - matploblib
+  - matplotlib
   - seaborn
 - 互動式資料視覺化
   - bokeh
