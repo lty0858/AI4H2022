@@ -32,7 +32,8 @@
 - 人工智慧
 - Tensorflow/Keras
 - 影像處理
-  - pillow qrcode
+  - pillow 
+  - qrcode
   - skimage
   - opencv
 - CNN
