@@ -15,4 +15,10 @@
 - EDA
 - 科學運算
 
-## 
+## Week 3:機器學習1
+## Week 4:機器學習2
+## Week 5:人工智慧1
+- Tensorflow/Keras
+- CNN
+## Week 6:人工智慧2
+- RNN
