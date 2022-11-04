@@ -11,11 +11,13 @@
 - [Matplotlib 3.0 Cookbook](https://www.packtpub.com/product/matplotlib-3-0-cookbook/9781789135718)
   - [GITHUB](https://github.com/PacktPublishing/Matplotlib-3.0-Cookbook) 
 - [Matplotlib 3.5.2 documentation](https://matplotlib.org/stable/users/getting_started/)
+- [Matplotlib Tutorial@W3school](https://www.w3schools.com/python/matplotlib_intro.asp)
 
 ### seaborn
   - [seaborn: statistical data visualization](https://seaborn.pydata.org/) 
   - Colab 已有支援
   - [User guide and tutorial](https://seaborn.pydata.org/tutorial.html)
+
 ### Bokeh
 
 ### Plotly
