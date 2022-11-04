@@ -1,7 +1,6 @@
 
 # 推薦書籍
 ### numpy
-# 推薦資料
 - [NumPy Tutorial](https://www.w3schools.com/python/numpy/default.asp)
 - [NumPy 高速運算徹底解說 - 六行寫一隻程式？你真懂深度學習？手工算給你看！吉田 拓真、尾原 颯 著 吳嘉芳、蒲宗賢 譯](https://www.tenlong.com.tw/products/9789863126195?list_name=srh)
   -  現場で使える! NumPyデータ処理入門
