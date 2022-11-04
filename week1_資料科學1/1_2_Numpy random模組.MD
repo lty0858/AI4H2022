@@ -1,5 +1,6 @@
 ## [Numpy random模組](https://numpy.org/doc/1.16/reference/routines.random.html)
-- Numpy random模組有許多函數(如下)
+- Numpy random模組有許多函數
+- [Random Numbers in NumPy](https://www.w3schools.com/python/numpy/numpy_random.asp)
 
 ## 產生亂數樣本
 ```python
