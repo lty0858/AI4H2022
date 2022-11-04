@@ -16,9 +16,17 @@
 - 科學運算
 
 ## Week 3:機器學習1
+- 監督式機器學習
+- 回歸
+- 分類
 ## Week 4:機器學習2
+- 非監督式機器學習
+- ensemble learning
+
 ## Week 5:人工智慧1
 - Tensorflow/Keras
 - CNN
 ## Week 6:人工智慧2
 - RNN
+- VAE
+- GAN
