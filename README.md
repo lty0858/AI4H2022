@@ -14,6 +14,8 @@
 - pandas
 - EDA
 - 科學運算
+  - scipy
+  - sympy 
 
 ## Week 3:機器學習1
 - 監督式機器學習
