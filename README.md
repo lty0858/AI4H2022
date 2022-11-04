@@ -27,9 +27,16 @@
 ## Week 4:機器學習2
 - 非監督式機器學習
 - ensemble learning
+
 ## Week 5:人工智慧1
+- 人工智慧
 - Tensorflow/Keras
+- 影像處理
+  - pillow qrcode
+  - skimage
+  - opencv
 - CNN
+
 ## Week 6:人工智慧2
 - RNN
 - VAE
