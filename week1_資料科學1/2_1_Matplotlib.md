@@ -1,3 +1,6 @@
+# 
+- [Writing mathematical expressions](https://matplotlib.org/stable/tutorials/text/mathtext.html)
+- [Plot Mathematical Expressions in Python using Matplotlib](https://www.geeksforgeeks.org/plot-mathematical-expressions-in-python-using-matplotlib/)
 
 ## Elements of a Figure
 - [解說圖形組成](https://github.com/PacktPublishing/Matplotlib-3.0-Cookbook/blob/master/Chapter01/Chapter%201%20-%20Anatomy%20of%20Matplotlib.ipynb)
