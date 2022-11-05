@@ -23,7 +23,7 @@
 - 互動式資料視覺化展示
 
 ### Bokeh互動式資料視覺化技術
-
+- [Bokeh documentation](https://docs.bokeh.org/en/latest/)
 ### Plotly互動式資料視覺化技術
 - [Python Plotly tutorial](https://www.geeksforgeeks.org/python-plotly-tutorial/?ref=lbp)
 - [Plotly互動式資料視覺展示廳](https://dash.gallery/Portal/)
