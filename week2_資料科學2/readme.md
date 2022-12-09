@@ -6,3 +6,6 @@
 - [下載第2場錄影](https://drive.google.com/file/d/1ShXcjH62_r_B2HL_ciragJoEo1Zl4Bh3/view?usp=sharing)
 - [下載第3場錄影](https://drive.google.com/file/d/19tYYpJ-N8YCNnMg6NFE1uvVkeRdRtKIc/view?usp=sharing)
 - [下載第4場錄影](https://drive.google.com/file/d/1zgItTccZd8mJyyZzNXo0A3l2t58Nhmtj/view?usp=sharing)
+
+# YOUTUBE教學影片
+- [Pandas Tutorial 2021 Derek Banas](https://www.youtube.com/watch?v=PcvsOaixUh8)
