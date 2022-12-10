@@ -24,4 +24,5 @@ $$e^{-\infty} = \exp[-\infty] = 0$$
 
 
 二元一次聯立方程式
+
 $$\begin{matrix}x + 2y = 8 \\ 2x - y = 6 \end{matrix} \Rightarrow x = 4, y = 2$$
