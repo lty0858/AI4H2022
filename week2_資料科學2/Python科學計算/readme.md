@@ -30,3 +30,11 @@ $$\begin{matrix}x + 2y = 8 \\ 2x - y = 6 \end{matrix} \Rightarrow x = 4, y = 2$$
 $$x(t) = R \cos(\omega t + \phi)$$
 $$v(t) = -R \omega \sin(\omega t + \phi)$$
 $$x(t) = -R \omega^2 \cos(\omega t + \phi)$$
+
+
+$$ \int \sin(x) dx = -\cos(x) + c$$
+$$ \int_0^{\pi} \sin(x) dx = \left [ -\cos(x) \right ]_0^{\pi} = -(-1) - (-1) = 2$$
+$$ \int e^x dx = e^x + c$$
+$$ \int_0^1 e^x dx = e^1 - e^0 = e - 1 \approx 1.71828182845905$$
+$$ \int \frac{dx}{x} = \ln x+ c$$
+$$ \int_2^3 \frac{dx}{x} = \ln 3 - \ln 2 = \ln \left( \frac{3}{2} \right) \approx 0.405465108108164$$
