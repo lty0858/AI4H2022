@@ -17,3 +17,11 @@
 $$f(x) = x^2 - 2x -8$$
 $$f(x) = (x-4)(x+2) = 0 \Rightarrow x = 4 \vee -2$$
 $$f(2) = 2^2 - 2 \times 2 -8 = -8$$
+
+
+$$\sin \left( \frac{\pi}{3} \right) = \frac{\sqrt{3}}{2} \approx 0.866025403784439$$
+$$e^{-\infty} = \exp[-\infty] = 0$$
+
+
+二元一次聯立方程式
+$$\begin{matrix}x + 2y = 8 \\ 2x - y = 6 \end{matrix} \Rightarrow x = 4, y = 2$$
