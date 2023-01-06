@@ -7,6 +7,8 @@
 - 回歸Regression  [scikit-learn]()
   - 常用回歸Regression
     - Ordinary Least Squares
+      - [有數學公式:Simple Linear Regression in Python (From Scratch)](https://www.kaggle.com/datasets/karthickveerakumar/salary-data-simple-linear-regression)
+        - [KAGGLE: Salary data - Simple linear regression](https://www.kaggle.com/datasets/karthickveerakumar/salary-data-simple-linear-regression) 
       - [不用套件硬功夫](https://github.com/m0-k1/Linear-Regression_model)
       - [使用各種套件](https://github.com/tatwan/Linear-Regression-Implementation-in-Python)
       - 範例研讀
