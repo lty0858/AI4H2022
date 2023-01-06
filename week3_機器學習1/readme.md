@@ -4,22 +4,31 @@
 # 1.機器學習演算法 [開發套件 scikit-learn](https://scikit-learn.org/stable/)
 
 ## 監督式學習Supervised learning  [scikit-learn支援的演算法](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
-- 回歸Regression  [scikit-learn]()
+- 回歸Regression  
   - 常用回歸Regression
     - Ordinary Least Squares
-      - [有數學公式:Simple Linear Regression in Python (From Scratch)](https://www.kaggle.com/datasets/karthickveerakumar/salary-data-simple-linear-regression)
+      - 👍[有數學公式:Simple Linear Regression in Python (From Scratch)](https://www.kaggle.com/datasets/karthickveerakumar/salary-data-simple-linear-regression)
         - [KAGGLE: Salary data - Simple linear regression](https://www.kaggle.com/datasets/karthickveerakumar/salary-data-simple-linear-regression) 
       - [不用套件硬功夫](https://github.com/m0-k1/Linear-Regression_model)
       - [使用各種套件](https://github.com/tatwan/Linear-Regression-Implementation-in-Python)
+        - Manual with Gradient Descent
+        - Using Scipy
+        - Using Scikit-Learn
+        - Using Statsmodel
       - 範例研讀
         - [07_Simple_and_Multiple_Regression](https://github.com/sandipanpaul21/Machine-Learning-in-Python-Code/blob/master/07_Simple_and_Multiple_Regression.ipynb) 
           - [範例筆記](https://github.com/sandipanpaul21/ML-Notes-Daywise)
         - [karthickai/Linear-Regression](https://github.com/karthickai/Linear-Regression) 
+    - Polynomial Regression 使用numpy方法 [Polynomial Regression](https://www.w3schools.com/python/python_ml_polynomial_regression.asp)
     - Ridge regression and classification
     - Lasso regression
     - Nearest Neighbors Regression 
 - 分類Classification ==> 二元分類(有病|沒病,正常|異常) VS 多元分類(不同等級A|B|C|D|E|...的水果)
   - Nearest Neighbors
+    - 👍[A Simple Introduction to K-Nearest Neighbors Algorithm](https://towardsdatascience.com/a-simple-introduction-to-k-nearest-neighbors-algorithm-b3519ed98e)
+    - [K-Nearest Neighbor(KNN) Algorithm for Machine Learning](https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning)
+    - [sklearn.neighbors.KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+      - from sklearn.neighbors import KNeighborsClassifier  
   - Naive Bayes
   - Decision Trees決策樹
   - [Support Vector Machines 支援向量機](https://scikit-learn.org/stable/modules/svm.html#support-vector-machines)
