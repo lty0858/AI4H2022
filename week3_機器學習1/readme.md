@@ -7,8 +7,10 @@
 - 回歸Regression  [scikit-learn]()
   - 常用回歸Regression
     - Ordinary Least Squares
-      - 範例[07_Simple_and_Multiple_Regression](https://github.com/sandipanpaul21/Machine-Learning-in-Python-Code/blob/master/07_Simple_and_Multiple_Regression.ipynb) 
-      - [範例筆記](https://github.com/sandipanpaul21/ML-Notes-Daywise)
+      - 範例研讀
+        - [07_Simple_and_Multiple_Regression](https://github.com/sandipanpaul21/Machine-Learning-in-Python-Code/blob/master/07_Simple_and_Multiple_Regression.ipynb) 
+          - [範例筆記](https://github.com/sandipanpaul21/ML-Notes-Daywise)
+        - [karthickai/Linear-Regression](https://github.com/karthickai/Linear-Regression) 
     - Ridge regression and classification
     - Lasso regression
     - Nearest Neighbors Regression 
@@ -104,3 +106,5 @@
     - 自然語言處理
       - [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
   
+  # 其他
+  - https://github.com/leemengtaiwan/deep-learning-resources
