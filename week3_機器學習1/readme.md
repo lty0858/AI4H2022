@@ -53,6 +53,9 @@
     - The `sklearn.metrics` module implements several loss, score, and utility functions to measure classification performance
     - 3.3.2.2. Accuracy score
     - 3.3.2.7. Classification report
+  - 效能調教 [sklearn.model_selection](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.model_selection)
+    - 交叉驗證 cross validation
+    - [Model Selection sklearn.model_selection](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.model_selection): gridsearchCV 
   - 專題
     - 智慧金融之信用卡詐欺偵測[Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) 
     - 人力資源管理:員工流失率預測模型[Human Resources Analytics: A Descriptive Analysis](https://www.kaggle.com/code/colara/human-resources-analytics-a-descriptive-analysis)
