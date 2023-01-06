@@ -53,6 +53,10 @@
     - The `sklearn.metrics` module implements several loss, score, and utility functions to measure classification performance
     - 3.3.2.2. Accuracy score
     - 3.3.2.7. Classification report
+  - 專題
+    - 智慧金融之信用卡詐欺偵測[Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) 
+    - 人力資源管理:員工流失率預測模型[Human Resources Analytics: A Descriptive Analysis](https://www.kaggle.com/code/colara/human-resources-analytics-a-descriptive-analysis)
+    - 客戶流失率預測模型
 ## 非監督式學習Unsupervised learning [scikit-learn支援的演算法 2. Unsupervised learning](https://scikit-learn.org/stable/unsupervised_learning.html)
 - 叢集演算法 see [scikit-learn 2.3. Clustering]()
   - K-means [2.3.2. K-means](https://scikit-learn.org/stable/modules/clustering.html#k-means)
