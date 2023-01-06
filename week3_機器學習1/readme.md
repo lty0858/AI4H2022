@@ -31,6 +31,14 @@
     - [K-Nearest Neighbor(KNN) Algorithm for Machine Learning](https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning)
     - [sklearn.neighbors.KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
       - from sklearn.neighbors import KNeighborsClassifier  
+    - 範例 [k-NN on Iris Dataset](https://towardsdatascience.com/k-nn-on-iris-dataset-3b827f2591e)
+    - Kaggle範例 [Iris data visualization and KNN classification](https://www.kaggle.com/code/skalskip/iris-data-visualization-and-knn-classification)
+    - Kaggle範例[K-Nearest Neighbor with Iris Data set](https://www.kaggle.com/code/susree64/k-nearest-neighbor-with-iris-data-set/notebook)
+    - Kaggle資料集 [Pistachio Dataset](https://www.kaggle.com/datasets/muratkokludataset/pistachio-dataset)
+      - OZKAN IA., KOKLU M. and SARACOGLU R. (2021). Classification of Pistachio Species Using Improved K-NN Classifier. Progress in Nutrition, Vol. 23, N. 2, pp. DOI:10.23751/pn.v23i2.9686. (Open Access) https://www.mattioli1885journals.com/index.php/progressinnutrition/article/view/9686/9178
+      - SINGH D, TASPINAR YS, KURSUN R, CINAR I, KOKLU M, OZKAN IA, LEE H-N., (2022). Classification and Analysis of Pistachio Species with Pre-Trained Deep Learning Models, Electronics, 11 (7), 981. https://doi.org/10.3390/electronics11070981. (Open Access) 
+    - YOUTUBE 教學影片
+      - [2.6 K-nearest neighbors in Python (L02: Nearest Neighbor Methods)](https://www.youtube.com/watch?v=PtjeiDpHss8)
   - Naive Bayes
   - Decision Trees決策樹
   - [Support Vector Machines 支援向量機](https://scikit-learn.org/stable/modules/svm.html#support-vector-machines)
