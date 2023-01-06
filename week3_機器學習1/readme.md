@@ -1,26 +1,26 @@
-#
+# 機器學習
 
 
-# 機器學習演算法
+# 1.機器學習演算法
 ## 監督式學習Supervised learning
-- 回歸
-- 分類
+- 回歸Regression  [scikit-learn]()
+- 分類Classification []()
 
 ## 非監督式學習Unsupervised learning
 
 ## 半監督式學習Semi-supervised learning
 
-## 強化學習Reinforcement learning
+## 強化學習Reinforcement learning
 
-# 機器學習開發平台 
+# 2.機器學習開發平台 
 - [scikit-learn: machine learning in Python](https://scikit-learn.org/)
 
-# 機器學習應用場域
+# 3.機器學習應用場域
 - 智慧資安
 - 智慧金融
 - 智慧製造
 
-# 機器學習學習
+# 4.機器學習學習
 - [Kaggle: Your Machine Learning and Data Science Community](https://www.kaggle.com/)
   - [Datasets](https://www.kaggle.com/) 
     - 資訊安全
