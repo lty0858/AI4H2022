@@ -15,6 +15,8 @@
         - Using Scipy
         - Using Scikit-Learn
         - Using Statsmodel
+      - YOUTUBE 教學影片
+        - [Regression Analysis | Full Course](https://www.youtube.com/watch?v=0m-rs2M7K-Y) 
       - 範例研讀
         - [07_Simple_and_Multiple_Regression](https://github.com/sandipanpaul21/Machine-Learning-in-Python-Code/blob/master/07_Simple_and_Multiple_Regression.ipynb) 
           - [範例筆記](https://github.com/sandipanpaul21/ML-Notes-Daywise)
