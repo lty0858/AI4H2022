@@ -30,7 +30,7 @@
   - 孤立森林(Isolation Forest)2008 
     - [論文](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf?q=isolation-forest)
     - [WIKI](https://en.wikipedia.org/wiki/Isolation_forest) 
-    - [sklearn.ensemble.IsolationForest]()
+    - [sklearn.ensemble.IsolationForest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)
       - from sklearn.ensemble import IsolationForest
       - X = [[-1.1], [0.3], [0.5], [100]]
       - clf = IsolationForest(random_state=0).fit(X)
