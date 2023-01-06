@@ -1,18 +1,28 @@
 # 機器學習
 
 
-# 1.機器學習演算法
+# 1.機器學習演算法 [開發套件 scikit-learn](https://scikit-learn.org/stable/)
+
 ## 監督式學習Supervised learning  [scikit-learn支援的演算法](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 - 回歸Regression  [scikit-learn]()
   - 常用回歸Regression
-    - 1.6.3. Nearest Neighbors Regression 
-- 分類Classification []()
-  - Decision Trees
+    - Ordinary Least Squares
+    - Ridge regression and classification
+    - Lasso regression
+    - Nearest Neighbors Regression 
+- 分類Classification ==> 二元分類(有病|沒病,正常|異常) VS 多元分類(不同等級A|B|C|D|E|...的水果)
+  - Nearest Neighbors
+  - Naive Bayes
+  - Decision Trees決策樹
+  - [Support Vector Machines 支援向量機](https://scikit-learn.org/stable/modules/svm.html#support-vector-machines)
+    - SVC, NuSVC and LinearSVC are classes capable of performing binary and multi-class classification on a dataset.
   - Ensemble methods(超熱門)
-    - [集成式學習：Python 實踐！整合全部技術，打造最強模型 ](https://www.tenlong.com.tw/products/9789863126942?list_name=srh)
-      - Hands-On Ensemble Learning with Python: Build highly optimized ensemble machine learning models using scikit-learn and Keras)
+    - [集成式學習：Python 實踐！Hands-On Ensemble Learning with Python](https://www.tenlong.com.tw/products/9789863126942?list_name=srh)
     - [Ensemble Machine Learning Cookbook(2019)](https://www.tenlong.com.tw/products/9781789136609?list_name=srh)
-
+  - 效能評估 see [Classification metrics]()
+    - The `sklearn.metrics` module implements several loss, score, and utility functions to measure classification performance
+    - 3.3.2.2. Accuracy score
+    - 3.3.2.7. Classification report
 ## 非監督式學習Unsupervised learning [scikit-learn支援的演算法 2. Unsupervised learning](https://scikit-learn.org/stable/unsupervised_learning.html)
 - 叢集演算法 see [scikit-learn 2.3. Clustering]()
   - K-means [2.3.2. K-means](https://scikit-learn.org/stable/modules/clustering.html#k-means)
