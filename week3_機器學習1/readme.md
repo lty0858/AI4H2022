@@ -21,6 +21,7 @@
         - [07_Simple_and_Multiple_Regression](https://github.com/sandipanpaul21/Machine-Learning-in-Python-Code/blob/master/07_Simple_and_Multiple_Regression.ipynb) 
           - [範例筆記](https://github.com/sandipanpaul21/ML-Notes-Daywise)
         - [karthickai/Linear-Regression](https://github.com/karthickai/Linear-Regression) 
+    - 房價預測問題[Boston House Prices](https://www.kaggle.com/datasets/vikrishnan/boston-house-prices) 
     - Polynomial Regression 使用numpy方法 [Polynomial Regression](https://www.w3schools.com/python/python_ml_polynomial_regression.asp)
     - Ridge regression and classification
     - Lasso regression
