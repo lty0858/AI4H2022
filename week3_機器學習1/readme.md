@@ -9,7 +9,6 @@
   - 常用回歸Regression
     - Ordinary Least Squares
       - 👍[有數學公式:Simple Linear Regression in Python (From Scratch)](https://www.kaggle.com/datasets/karthickveerakumar/salary-data-simple-linear-regression)
-        - [KAGGLE: Salary data - Simple linear regression](https://www.kaggle.com/datasets/karthickveerakumar/salary-data-simple-linear-regression) 
       - [不用套件硬功夫](https://github.com/m0-k1/Linear-Regression_model)
       - [使用各種套件](https://github.com/tatwan/Linear-Regression-Implementation-in-Python)
         - Manual with Gradient Descent
@@ -22,7 +21,9 @@
         - [07_Simple_and_Multiple_Regression](https://github.com/sandipanpaul21/Machine-Learning-in-Python-Code/blob/master/07_Simple_and_Multiple_Regression.ipynb) 
           - [範例筆記](https://github.com/sandipanpaul21/ML-Notes-Daywise)
         - [karthickai/Linear-Regression](https://github.com/karthickai/Linear-Regression) 
-    - 房價預測問題[Boston House Prices](https://www.kaggle.com/datasets/vikrishnan/boston-house-prices) 
+    - 專題
+      - 房價預測問題[Boston House Prices](https://www.kaggle.com/datasets/vikrishnan/boston-house-prices) 
+      - 薪水預測[KAGGLE: Salary data - Simple linear regression](https://www.kaggle.com/datasets/karthickveerakumar/salary-data-simple-linear-regression) 
     - Polynomial Regression 使用numpy方法 [Polynomial Regression](https://www.w3schools.com/python/python_ml_polynomial_regression.asp)
     - Ridge regression and classification
     - Lasso regression
