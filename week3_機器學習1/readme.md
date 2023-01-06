@@ -4,7 +4,11 @@
 # 1.機器學習演算法
 ## 監督式學習Supervised learning  [scikit-learn支援的演算法](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 - 回歸Regression  [scikit-learn]()
+  - 常用回歸Regression
+    - 1.6.3. Nearest Neighbors Regression 
 - 分類Classification []()
+  - Decision Trees
+  - Ensemble methods(超熱門)
 
 ## 非監督式學習Unsupervised learning [scikit-learn支援的演算法 2. Unsupervised learning](https://scikit-learn.org/stable/unsupervised_learning.html)
 - 叢集演算法 see [scikit-learn 2.3. Clustering]()
@@ -39,10 +43,13 @@
   - 深度學習
     - GAN 
     - 自動編碼器（Autoencoder）與 VAE
+  - 其他
+    - 自組織對映演算法（SOM） 
   - 推薦書籍
     - [非監督式學習｜使用 Python (Hands-On Unsupervised Learning Using Python)](https://www.tenlong.com.tw/products/9789865024062?list_name=srh)
     - [Hands-On Unsupervised Learning with Python](https://www.tenlong.com.tw/products/9781789348279?list_name=srh) 簡中譯本[Python 無監督學習](https://www.tenlong.com.tw/products/9787115540720?list_name=srh)
     - [Applied Unsupervised Learning with Python(2019)](https://www.tenlong.com.tw/products/9781789952292?list_name=srh) 
+
 ## 半監督式學習Semi-supervised learning
 
 ## 強化學習Reinforcement learning
