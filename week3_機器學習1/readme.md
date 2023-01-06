@@ -2,6 +2,9 @@
 
 - https://meet.google.com/kfv-bbdj-nfm
 
+
+- 8wingflying@gmail.com
+
 # 1.機器學習演算法 [開發套件 scikit-learn](https://scikit-learn.org/stable/)
 
 ## 監督式學習Supervised learning  [scikit-learn支援的演算法](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
