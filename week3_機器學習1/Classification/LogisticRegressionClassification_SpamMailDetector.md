@@ -6,7 +6,7 @@
 
 ## 
 ```
-!wget https://raw.githubusercontent.com/8wingflying/20220720/main/week4_machineLearning/DATA/mail_data.csv
+!wget https://raw.githubusercontent.com/TaiwanHolyHigh/AI4H2022/main/DATA/mail_data.csv
 ```
 ```python
 -*- coding: utf-8 -*-
