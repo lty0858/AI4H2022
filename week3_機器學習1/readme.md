@@ -9,6 +9,9 @@
 - 分類Classification []()
   - Decision Trees
   - Ensemble methods(超熱門)
+    - [集成式學習：Python 實踐！整合全部技術，打造最強模型 ](https://www.tenlong.com.tw/products/9789863126942?list_name=srh)
+      - Hands-On Ensemble Learning with Python: Build highly optimized ensemble machine learning models using scikit-learn and Keras)
+    - [Ensemble Machine Learning Cookbook(2019)](https://www.tenlong.com.tw/products/9781789136609?list_name=srh)
 
 ## 非監督式學習Unsupervised learning [scikit-learn支援的演算法 2. Unsupervised learning](https://scikit-learn.org/stable/unsupervised_learning.html)
 - 叢集演算法 see [scikit-learn 2.3. Clustering]()
