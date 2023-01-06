@@ -24,10 +24,19 @@
     - 2.3.10.9. Pair Confusion Matrix
 - Principal component analysis (PCA)
   - [2.5. Decomposing signals in components (matrix factorization problems)]()
-- 孤立子偵測 see [2.7. Novelty and Outlier Detection]()
-  - Isolation Forest and Local Outlier Factor (LOF)
-  - Local Outlier Factor (LOF)
+- Anomaly detection|  Novelty Detection | Outlier Detection 孤立子偵測 see [2.7. Novelty and Outlier Detection](https://scikit-learn.org/stable/modules/outlier_detection.html)
+  - Local Outlier Factor (LOF) 2000
     - 論文 [LOF: Identifying Density-Based Local Outliers ](https://www.dbs.ifi.lmu.de/Publikationen/Papers/LOF.pdf) 
+  - 孤立森林(Isolation Forest)2008 
+    - [論文](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf?q=isolation-forest)
+    - [WIKI](https://en.wikipedia.org/wiki/Isolation_forest) 
+    - [sklearn.ensemble.IsolationForest]()
+      - from sklearn.ensemble import IsolationForest
+      - X = [[-1.1], [0.3], [0.5], [100]]
+      - clf = IsolationForest(random_state=0).fit(X)
+      - clf.predict([[0.1], [0], [90]])
+    - [Anomaly detection using Isolation Forest – A Complete Guide](https://www.analyticsvidhya.com/blog/2021/07/anomaly-detection-using-isolation-forest-a-complete-guide/)
+
 ## 半監督式學習Semi-supervised learning
 
 ## 強化學習Reinforcement learning
