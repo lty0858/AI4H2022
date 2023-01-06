@@ -23,8 +23,8 @@
     - 2.3.10.8. Contingency Matrix
     - 2.3.10.9. Pair Confusion Matrix
 - Principal component analysis (PCA)
-  - [2.5. Decomposing signals in components (matrix factorization problems)]()
-- Anomaly detection|  Novelty Detection | Outlier Detection 孤立子偵測 see [2.7. Novelty and Outlier Detection](https://scikit-learn.org/stable/modules/outlier_detection.html)
+  - [2.5. Decomposing signals in components (matrix factorization problems)](https://scikit-learn.org/stable/modules/decomposition.html)
+- [Anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection)|  Novelty Detection | Outlier Detection 孤立子偵測 see [2.7. Novelty and Outlier Detection](https://scikit-learn.org/stable/modules/outlier_detection.html)
   - Local Outlier Factor (LOF) 2000
     - 論文 [LOF: Identifying Density-Based Local Outliers ](https://www.dbs.ifi.lmu.de/Publikationen/Papers/LOF.pdf) 
   - 孤立森林(Isolation Forest)2008 
