@@ -36,7 +36,13 @@
       - clf = IsolationForest(random_state=0).fit(X)
       - clf.predict([[0.1], [0], [90]])
     - [Anomaly detection using Isolation Forest – A Complete Guide](https://www.analyticsvidhya.com/blog/2021/07/anomaly-detection-using-isolation-forest-a-complete-guide/)
-
+  - 深度學習
+    - GAN 
+    - 自動編碼器（Autoencoder）與 VAE
+  - 推薦書籍
+    - [非監督式學習｜使用 Python (Hands-On Unsupervised Learning Using Python)](https://www.tenlong.com.tw/products/9789865024062?list_name=srh)
+    - [Hands-On Unsupervised Learning with Python](https://www.tenlong.com.tw/products/9781789348279?list_name=srh) 簡中譯本[Python 無監督學習](https://www.tenlong.com.tw/products/9787115540720?list_name=srh)
+    - [Applied Unsupervised Learning with Python(2019)](https://www.tenlong.com.tw/products/9781789952292?list_name=srh) 
 ## 半監督式學習Semi-supervised learning
 
 ## 強化學習Reinforcement learning
