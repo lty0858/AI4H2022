@@ -8,6 +8,7 @@
   - 常用回歸Regression
     - Ordinary Least Squares
       - [不用套件硬功夫](https://github.com/m0-k1/Linear-Regression_model)
+      - [使用各種套件](https://github.com/tatwan/Linear-Regression-Implementation-in-Python)
       - 範例研讀
         - [07_Simple_and_Multiple_Regression](https://github.com/sandipanpaul21/Machine-Learning-in-Python-Code/blob/master/07_Simple_and_Multiple_Regression.ipynb) 
           - [範例筆記](https://github.com/sandipanpaul21/ML-Notes-Daywise)
