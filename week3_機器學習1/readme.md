@@ -48,7 +48,7 @@
   - Ensemble methods(超熱門)
     - [集成式學習：Python 實踐！Hands-On Ensemble Learning with Python](https://www.tenlong.com.tw/products/9789863126942?list_name=srh)
     - [Ensemble Machine Learning Cookbook(2019)](https://www.tenlong.com.tw/products/9781789136609?list_name=srh)
-  - 效能評估 see [Classification metrics]()
+  - 效能評估 see [Classification metrics](https://scikit-learn.org/stable/modules/model_evaluation.html)
     - The `sklearn.metrics` module implements several loss, score, and utility functions to measure classification performance
     - 3.3.2.2. Accuracy score
     - 3.3.2.7. Classification report
