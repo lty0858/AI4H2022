@@ -3,6 +3,8 @@
 
 # 機器學習演算法
 ## 監督式學習Supervised learning
+- 回歸
+- 分類
 
 ## 非監督式學習Unsupervised learning
 
@@ -11,6 +13,7 @@
 ## 強化學習Reinforcement learning
 
 # 機器學習開發平台 
+- [scikit-learn: machine learning in Python](https://scikit-learn.org/)
 
 # 機器學習應用場域
 - 智慧資安
