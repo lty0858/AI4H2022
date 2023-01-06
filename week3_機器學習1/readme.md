@@ -2,12 +2,32 @@
 
 
 # 1.機器學習演算法
-## 監督式學習Supervised learning
+## 監督式學習Supervised learning  [scikit-learn支援的演算法](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 - 回歸Regression  [scikit-learn]()
 - 分類Classification []()
 
-## 非監督式學習Unsupervised learning
-
+## 非監督式學習Unsupervised learning [scikit-learn支援的演算法 2. Unsupervised learning](https://scikit-learn.org/stable/unsupervised_learning.html)
+- 叢集演算法 see [scikit-learn 2.3. Clustering]()
+  - K-means [2.3.2. K-means](https://scikit-learn.org/stable/modules/clustering.html#k-means)
+  - Hierarchical clustering see [2.3.6. Hierarchical clustering]()
+  - DBSCAN clustering algorithm
+    - [Demo of DBSCAN clustering algorithm](https://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html#sphx-glr-auto-examples-cluster-plot-dbscan-py)
+  - 效能評估 see [2.3.10. Clustering performance evaluation]()
+    - 2.3.10.1. Rand index
+    - 2.3.10.2. Mutual Information based scores
+    - 2.3.10.3. Homogeneity, completeness and V-measure
+    - 2.3.10.4. Fowlkes-Mallows scores
+    - 2.3.10.5. Silhouette Coefficient
+    - 2.3.10.6. Calinski-Harabasz Index
+    - 2.3.10.7. Davies-Bouldin Index
+    - 2.3.10.8. Contingency Matrix
+    - 2.3.10.9. Pair Confusion Matrix
+- Principal component analysis (PCA)
+  - [2.5. Decomposing signals in components (matrix factorization problems)]()
+- 孤立子偵測 see [2.7. Novelty and Outlier Detection]()
+  - Isolation Forest and Local Outlier Factor (LOF)
+  - Local Outlier Factor (LOF)
+    - 論文 [LOF: Identifying Density-Based Local Outliers ](https://www.dbs.ifi.lmu.de/Publikationen/Papers/LOF.pdf) 
 ## 半監督式學習Semi-supervised learning
 
 ## 強化學習Reinforcement learning
