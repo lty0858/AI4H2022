@@ -1,4 +1,5 @@
 # sklearn資料集分為幾種類型： 
+- [【深度學習】深度學習常用資料集](https://blog.csdn.net/weixin_47876613/article/details/118806756)
 - [7. Dataset loading utilities](https://scikit-learn.org/stable/datasets.html)
   - 7.1. Toy datasets
   - 7.2. Real world datasets
@@ -49,6 +50,9 @@
 Linnerud 資料集是一個多元回歸資料集。
 它由20 名中年男性收集的三個運動資料：chins、仰臥起坐、跳遠和三個生理目標變數：體重、腰圍、脈搏組成。
 
+範例教學:An exploration of sklearn's Linnerrud dataset  
+https://www.youtube.com/watch?v=oBfIl8XzydY
+https://github.com/TracyRenee61/Misc-Predictions/blob/main/Linnerrud_dataset.ipynb
 
 1.6、葡萄酒識別資料集load_wine
 資料一共有178行資料
