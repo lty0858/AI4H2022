@@ -83,7 +83,7 @@ for K in [2, 3, 4, 5, 6, 7]:
                 bc.target, preds.labels['graph_closure']))
 ```
 
-- oe_vote.py 
+- oe_vote.py  VS oe_vote_tsne.py 
 ```python
 # --- SECTION 3 ---
 # Create the ensembles and calculate the homogeneity score
