@@ -8,68 +8,12 @@
 | Classifier | Regressor |
 | ------ | -------|
 | ensemble.AdaBoostClassifier([estimator, ...]) <br> An AdaBoost classifier.| ensemble.AdaBoostRegressor([estimator, ...]) <br> An AdaBoost regressor.|
-
-ensemble.BaggingClassifier([estimator, ...])
-
-A Bagging classifier.
-
-ensemble.BaggingRegressor([estimator, ...])
-
-A Bagging regressor.
-
-ensemble.ExtraTreesClassifier([...])
-
-An extra-trees classifier.
-
-ensemble.ExtraTreesRegressor([n_estimators, ...])
-
-An extra-trees regressor.
-
-ensemble.GradientBoostingClassifier(*[, ...])
-
-Gradient Boosting for classification.
-
-ensemble.GradientBoostingRegressor(*[, ...])
-
-Gradient Boosting for regression.
-
-ensemble.IsolationForest(*[, n_estimators, ...])
-
-Isolation Forest Algorithm.
-
-ensemble.RandomForestClassifier([...])
-
-A random forest classifier.
-
-ensemble.RandomForestRegressor([...])
-
-A random forest regressor.
-
-ensemble.RandomTreesEmbedding([...])
-
-An ensemble of totally random trees.
-
-ensemble.StackingClassifier(estimators[, ...])
-
-Stack of estimators with a final classifier.
-
-ensemble.StackingRegressor(estimators[, ...])
-
-Stack of estimators with a final regressor.
-
-ensemble.VotingClassifier(estimators, *[, ...])
-
-Soft Voting/Majority Rule classifier for unfitted estimators.
-
-ensemble.VotingRegressor(estimators, *[, ...])
-
-Prediction voting regressor for unfitted estimators.
-
-ensemble.HistGradientBoostingRegressor([...])
-
-Histogram-based Gradient Boosting Regression Tree.
-
-ensemble.HistGradientBoostingClassifier([...])
-
-Histogram-based Gradient Boosting Classification Tree.
+| ensemble.BaggingClassifier([estimator, ...])<br> A Bagging classifier.| ensemble.BaggingRegressor([estimator, ...])<br> A Bagging regressor.|
+|  ensemble.ExtraTreesClassifier([...]) <br>An extra-trees classifier.| ensemble.ExtraTreesRegressor([n_estimators, ...])<br>  An extra-trees regressor.|
+| ensemble.GradientBoostingClassifier(`*[, ...]`) <br>Gradient Boosting for classification.|ensemble.GradientBoostingRegressor(`*[, ...]`) <br>Gradient Boosting for regression.|
+| ensemble.IsolationForest(`*[, n_estimators, ...]`) <br> Isolation Forest Algorithm.| ensemble.RandomForestClassifier([...]) <br> A random forest classifier.|
+| ensemble.RandomForestRegressor([...]) <br> A random forest regressor.| ensemble.RandomTreesEmbedding([...])<br> An ensemble of totally random trees.|
+| ensemble.StackingClassifier(estimators[, ...])<br> Stack of estimators with a final classifier.| ensemble.StackingRegressor(estimators[, ...])<br> Stack of estimators with a final regressor.|
+| ensemble.VotingClassifier(estimators, `*[, ...]`) <br>Soft Voting/Majority Rule classifier for unfitted estimators.| ensemble.VotingRegressor(estimators, `*[, ...]`)<br>Prediction voting regressor for unfitted estimators.|
+| ensemble.HistGradientBoostingRegressor([...]) <br>Histogram-based Gradient Boosting Regression Tree. |ensemble.HistGradientBoostingClassifier([...])<br> Histogram-based Gradient Boosting Classification Tree.|
 ```
