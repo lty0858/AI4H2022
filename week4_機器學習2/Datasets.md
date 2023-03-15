@@ -191,40 +191,35 @@ sklearn.datasets.make_sparse_spd_matrix(dim=1, *, alpha=0.95,norm_diag=False, sm
 ### 4、載入其他資料集
 ```
 4.1、樣本圖片
+scikit 在通過圖片的作者共同授權下嵌入了幾個樣本 JPEG 圖片。
+這些圖像為了方便使用者對 test algorithms （測試演算法）和 pipeline on 2D data （二維資料管道）進行測試。
 
-scikit 在通過圖片的作者共同授權下嵌入了幾個樣本 JPEG 圖片。這些圖像為了方便使用者對 test algorithms （測試演算法）和 pipeline on 2D data （二維資料管道）進行測試。sklearn.datasets.
-load_sample_images
-()
-
-sklearn.datasets.
-load_sample_image
-(image_name)
+sklearn.datasets.load_sample_images()
+sklearn.datasets.load_sample_image(image_name)
 
 
 
 4.2、svmlight或libsvm格式的資料集
 scikit-learn 中有載入svmlight libsvm格式的資料集的功能函數。
-
 svmlight libsvm 格式的公共資料集:
-
 https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets
-
 更快的API相容的實現: https://github.com/mblondel/svmlight-loader
 
 
 4.3、從openml.org下載資料集
-openml.org是一個用於機器學習資料和實驗的公共存儲庫，它允許每個人上傳開放的資料集。在sklearn.datasets包中，可以通過sklearn.datasets.fetch_openml函數來從openml.org下載資料集．
+openml.org是一個用於機器學習資料和實驗的公共存儲庫，它允許每個人上傳開放的資料集。
+在sklearn.datasets包中，可以通過sklearn.datasets.fetch_openml函數來從openml.org下載資料集．
 
 
 4.4、從外部資料集載入
-scikit-learn使用任何存儲為numpy陣列或者scipy稀疏陣列的數值資料。其他可以轉化成數值陣列的類型也可以接受，如pandas中的DataFrame。
+scikit-learn使用任何存儲為numpy陣列或者scipy稀疏陣列的數值資料。
+其他可以轉化成數值陣列的類型也可以接受，如pandas中的DataFrame。
 
 以下推薦一些將標準縱列形式的資料轉換為scikit-learn可以使用的格式的方法:
-
-pandas.io 提供了從常見格式（包括 CSV、Excel、JSON 和 SQL）讀取資料的工具。DataFrames 也可以從元組或字典的清單中構建。Pandas 可以流暢地處理異構資料，並提供用於操作和轉換為適合 scikit-learn 的數值陣列的工具。
-
+pandas.io 提供了從常見格式（包括 CSV、Excel、JSON 和 SQL）讀取資料的工具。
+DataFrames 也可以從元組或字典的清單中構建。
+Pandas 可以流暢地處理異構資料，並提供用於操作和轉換為適合 scikit-learn 的數值陣列的工具。
 scipy.io 專門研究科學計算環境中常用的二進位格式，例如 .mat 和 .arff
-
 numpy/routines.io 用於將柱狀資料標準載入到 numpy 陣列中
 
 datasets.load_svmlight_file用於 svmlight 或 libSVM 稀疏格式的scikit-learn
@@ -232,12 +227,8 @@ datasets.load_svmlight_file用於 svmlight 或 libSVM 稀疏格式的scikit-lear
 scikit-learndatasets.load_files用於文字檔的目錄，其中每個目錄的名稱是每個類別的名稱，每個目錄中的每個檔對應於該類別的一個樣本
 
 對於圖片、視頻、音訊等一些雜資料，您不妨參考：
-
 skimage.io或 Imageio 用於將圖像和視頻載入到 numpy 陣列中
-
 scipy.io.wavfile.read 用於將 WAV 檔讀入 numpy 陣列
-
-
 ```
 
 ```python
