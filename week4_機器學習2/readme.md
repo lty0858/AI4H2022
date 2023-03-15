@@ -1,0 +1,30 @@
+## 非監督式學習Unsupervised learning [scikit-learn支援的演算法 2. Unsupervised learning](https://scikit-learn.org/stable/unsupervised_learning.html)
+- 叢集演算法 see [scikit-learn 2.3. Clustering]()
+  - K-means [2.3.2. K-means](https://scikit-learn.org/stable/modules/clustering.html#k-means)
+  - Hierarchical clustering see [2.3.6. Hierarchical clustering]()
+  - DBSCAN clustering algorithm
+    - [Demo of DBSCAN clustering algorithm](https://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html#sphx-glr-auto-examples-cluster-plot-dbscan-py)
+  - 效能評估 see [2.3.10. Clustering performance evaluation]()
+    - 2.3.10.1. Rand index
+    - 2.3.10.2. Mutual Information based scores
+    - 2.3.10.3. Homogeneity, completeness and V-measure
+    - 2.3.10.4. Fowlkes-Mallows scores
+    - 2.3.10.5. Silhouette Coefficient
+    - 2.3.10.6. Calinski-Harabasz Index
+    - 2.3.10.7. Davies-Bouldin Index
+    - 2.3.10.8. Contingency Matrix
+    - 2.3.10.9. Pair Confusion Matrix
+- Principal component analysis (PCA)
+  - [2.5. Decomposing signals in components (matrix factorization problems)](https://scikit-learn.org/stable/modules/decomposition.html)
+- [Anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection)|  Novelty Detection | Outlier Detection 孤立子偵測 see [2.7. Novelty and Outlier Detection](https://scikit-learn.org/stable/modules/outlier_detection.html)
+  - Local Outlier Factor (LOF) 2000
+    - 論文 [LOF: Identifying Density-Based Local Outliers ](https://www.dbs.ifi.lmu.de/Publikationen/Papers/LOF.pdf) 
+  - 孤立森林(Isolation Forest)2008 
+    - [論文](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf?q=isolation-forest)
+    - [WIKI](https://en.wikipedia.org/wiki/Isolation_forest) 
+    - [sklearn.ensemble.IsolationForest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)
+      - from sklearn.ensemble import IsolationForest
+      - X = [[-1.1], [0.3], [0.5], [100]]
+      - clf = IsolationForest(random_state=0).fit(X)
+      - clf.predict([[0.1], [0], [90]])
+    - [Anomaly detection using Isolation Forest – A Complete Guide](https://www.analyticsvidhya.com/blog/2021/07/anomaly-detection-using-isolation-forest-a-complete-guide/)
