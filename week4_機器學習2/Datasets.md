@@ -231,6 +231,16 @@ skimage.io或 Imageio 用於將圖像和視頻載入到 numpy 陣列中
 scipy.io.wavfile.read 用於將 WAV 檔讀入 numpy 陣列
 ```
 
+- [Bike Sharing Demand@Kaggle](https://www.kaggle.com/competitions/bike-sharing-demand/overview)
+```python
+from sklearn.datasets import fetch_openml
+
+bikes = fetch_openml("Bike_Sharing_Demand", version=2, as_frame=True, parser="pandas")
+# Make an explicit copy to avoid "SettingWithCopyWarning" from pandas
+X, y = bikes.data.copy(), bikes.target
+X
+```
+
 ```python
 from sklearn.datasets import load_boston
 
