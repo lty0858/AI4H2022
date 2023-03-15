@@ -21,7 +21,60 @@ kmeans.predict([[0, 0], [12, 3]])
 kmeans.cluster_centers_
 ```
 
+#  KMeans
+- [Hands-On Ensemble Learning with Python: Build highly optimized ensemble machine learning models using scikit-learn and Keras](https://www.packtpub.com/product/hands-on-ensemble-learning-with-python/9781789612851) [GITHUB](https://github.com/PacktPublishing/Hands-On-Ensemble-Learning-with-Python)
+  - 繁體中譯本[集成式學習：Python 實踐！整合全部技術，打造最強模型](https://www.tenlong.com.tw/products/9789863126942?list_name=srh) CH8-2
+```PYTHON
+import matplotlib.pyplot as plt
+import numpy as np
 
+from sklearn.cluster import KMeans
+from sklearn.datasets import load_breast_cancer
+from sklearn.manifold import TSNE
+
+
+np.random.seed(123456)
+
+bc = load_breast_cancer()
+tsne = TSNE()
+
+data = tsne.fit_transform(bc.data)
+reds = bc.target == 0
+blues = bc.target == 1
+plt.scatter(data[reds, 0], data[reds, 1], label='malignant')
+plt.scatter(data[blues, 0], data[blues, 1], label='benign')
+plt.xlabel('1st Component')
+plt.ylabel('2nd Component')
+plt.title('Breast Cancer dataa')
+plt.legend()
+
+
+plt.figure()
+plt.title('2, 4, and 6 clusters.')
+for clusters in [2, 4, 6]:
+    km = KMeans(n_clusters=clusters)
+    preds = km.fit_predict(data)
+    plt.subplot(1, 3, clusters/2)
+    plt.scatter(*zip(*data), c=preds)
+
+    classified = {x: {'m': 0, 'b': 0} for x in range(clusters)}
+
+    for i in range(len(data)):
+        cluster = preds[i]
+        label = bc.target[i]
+        label = 'm' if label == 0 else 'b'
+        classified[cluster][label] = classified[cluster][label]+1
+
+    print('-'*40)
+    for c in classified:
+        print('Cluster %d. Malignant percentage: ' % c, end=' ')
+        print(classified[c], end=' ')
+        print('%.3f' % (classified[c]['m'] /
+                        (classified[c]['m'] + classified[c]['b'])))
+
+    print(metrics.homogeneity_score(bc.target, preds))
+    print(metrics.silhouette_score(data, preds))
+```
 # Ensemble Learning with k-means
 - [Hands-On Ensemble Learning with Python: Build highly optimized ensemble machine learning models using scikit-learn and Keras](https://www.packtpub.com/product/hands-on-ensemble-learning-with-python/9781789612851) [GITHUB](https://github.com/PacktPublishing/Hands-On-Ensemble-Learning-with-Python)
   - 繁體中譯本[集成式學習：Python 實踐！整合全部技術，打造最強模型](https://www.tenlong.com.tw/products/9789863126942?list_name=srh) CH8
@@ -49,7 +102,7 @@ cluster_data = oe.data(pd.DataFrame(bc.data), bc.feature_names)
 np.random.seed(123456)
 ```
 
-- oe_co_occurence.py 
+- 8.3/8.4 ==> oe_vote.py  VS oe_vote_tsne.py 
 ```python
 # --- SECTION 3 ---
 # Create the ensembles and calculate the homogeneity score
@@ -60,13 +113,12 @@ for K in [2, 3, 4, 5, 6, 7]:
             name = f'kmeans_{ensemble_size}_{i}'
             ensemble.cluster('parent', 'kmeans', name, K)
 
-        preds = ensemble.finish_co_occ_linkage(threshold=0.5)
+        preds = ensemble.finish_majority_vote(threshold=0.5)
         print(f'K: {K}, size {ensemble_size}:', end=' ')
         print('%.2f' % sklearn.metrics.homogeneity_score(
-                bc.target, preds.labels['co_occ_linkage']))
+                bc.target, preds.labels['majority_vote']))
 ```
-
-- oe_graph_closure.py 
+- 8.5 oe_graph_closure.py 
 ```python
 # --- SECTION 3 ---
 # Create the ensembles and calculate the homogeneity score
@@ -83,7 +135,8 @@ for K in [2, 3, 4, 5, 6, 7]:
                 bc.target, preds.labels['graph_closure']))
 ```
 
-- oe_vote.py  VS oe_vote_tsne.py 
+
+- 8.6 oe_co_occurence.py 
 ```python
 # --- SECTION 3 ---
 # Create the ensembles and calculate the homogeneity score
@@ -94,10 +147,13 @@ for K in [2, 3, 4, 5, 6, 7]:
             name = f'kmeans_{ensemble_size}_{i}'
             ensemble.cluster('parent', 'kmeans', name, K)
 
-        preds = ensemble.finish_majority_vote(threshold=0.5)
+        preds = ensemble.finish_co_occ_linkage(threshold=0.5)
         print(f'K: {K}, size {ensemble_size}:', end=' ')
         print('%.2f' % sklearn.metrics.homogeneity_score(
-                bc.target, preds.labels['majority_vote']))
+                bc.target, preds.labels['co_occ_linkage']))
 ```
+
+
+
 
 
