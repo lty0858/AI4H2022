@@ -2,8 +2,14 @@
 - 非生成式演算法
   - 投票法（Voting）
   - 堆疊法（Stacking）
+- 生成式演算法
+  - 自助聚合法（Bootstrap Aggregation）
+  - 提升法（Boosting）
+    - 適應提升（Adaptive Boosting, AdaBoost）
+    - 梯度提升（Gradient Boosting）
+  - 隨機森林（Random Forest）
 
-# [sklearn.ensemble](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.ensemble)
+# [sklearn.ensemble 子模組](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.ensemble)
 
 | Classifier | Regressor |
 | ------ | -------|
