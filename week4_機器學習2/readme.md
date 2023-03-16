@@ -1,4 +1,5 @@
 # [Google Colab技巧](https://github.com/TaiwanHolyHigh/AI4H2022/blob/main/week4_%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%922/GoogleColabUsage.md)
+# [scikit-learn](./scikit-learn.md)
 # 非監督學習
 - Unsupervised Learning 
 - clustering
