@@ -86,26 +86,12 @@
 - Principal component analysis (PCA)
   - [2.5. Decomposing signals in components (matrix factorization problems)](https://scikit-learn.org/stable/modules/decomposition.html)
 - [Anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection)|  Novelty Detection | Outlier Detection 孤立子偵測 see [2.7. Novelty and Outlier Detection](https://scikit-learn.org/stable/modules/outlier_detection.html)
-  - Local Outlier Factor (LOF) 2000
-    - 論文 [LOF: Identifying Density-Based Local Outliers ](https://www.dbs.ifi.lmu.de/Publikationen/Papers/LOF.pdf) 
-  - 孤立森林(Isolation Forest)2008 
-    - [論文](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf?q=isolation-forest)
-    - [WIKI](https://en.wikipedia.org/wiki/Isolation_forest) 
-    - [sklearn.ensemble.IsolationForest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)
-      - from sklearn.ensemble import IsolationForest
-      - X = [[-1.1], [0.3], [0.5], [100]]
-      - clf = IsolationForest(random_state=0).fit(X)
-      - clf.predict([[0.1], [0], [90]])
-    - [Anomaly detection using Isolation Forest – A Complete Guide](https://www.analyticsvidhya.com/blog/2021/07/anomaly-detection-using-isolation-forest-a-complete-guide/)
   - 深度學習
     - GAN 
     - 自動編碼器（Autoencoder）與 VAE
   - 其他
     - 自組織對映演算法（SOM） 
-  - 推薦書籍
-    - [非監督式學習｜使用 Python (Hands-On Unsupervised Learning Using Python)](https://www.tenlong.com.tw/products/9789865024062?list_name=srh)
-    - [Hands-On Unsupervised Learning with Python](https://www.tenlong.com.tw/products/9781789348279?list_name=srh) 簡中譯本[Python 無監督學習](https://www.tenlong.com.tw/products/9787115540720?list_name=srh)
-    - [Applied Unsupervised Learning with Python(2019)](https://www.tenlong.com.tw/products/9781789952292?list_name=srh) 
+ 
 
 ## 半監督式學習Semi-supervised learning
 
