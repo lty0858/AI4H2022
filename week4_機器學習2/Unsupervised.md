@@ -3,7 +3,7 @@
 - 2.2. Manifold learning
 - 👍2.3. Clustering
 - 2.4. Biclustering: Spectral Co-Clustering | Spectral Biclustering
-- 👍2.5. Decomposing signals in components (matrix factorization problems)](https://scikit-learn.org/stable/modules/decomposition.html)
+- 👍2.5. [Decomposing signals in components (matrix factorization problems)](https://scikit-learn.org/stable/modules/decomposition.html)
   - Principal component analysis (PCA) | Kernel Principal Component Analysis (kPCA)|Truncated singular value decomposition and latent semantic analysis
   - Dictionary Learning | Factor Analysis |Independent component analysis (ICA) | Non-negative matrix factorization (NMF or NNMF) |Latent Dirichlet Allocation (LDA)
 - 2.6. Covariance estimation
