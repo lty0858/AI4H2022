@@ -14,7 +14,7 @@
   - [PCA](./PCA.md)
   - [t-Distributed Stochastic Neighbor Embedding (t-SNE) 2008](./tsne.md)
 - Anomaly DETECTION
-  - [區域性異常因子(Local Outlier Factor)](./lof.)
+  - [區域性異常因子(Local Outlier Factor)](./lof.md)
   - [IsolationForest](./IsolationForest.md)
   - 其他主題
     - [Python Outlier Detection (PyOD)](https://github.com/yzhao062/pyod)  pip install pyod
