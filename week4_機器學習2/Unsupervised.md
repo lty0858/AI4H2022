@@ -1,6 +1,9 @@
 ## [scikit-learn支援的演算法 2. Unsupervised learning](https://scikit-learn.org/stable/unsupervised_learning.html)
 - 2.1. Gaussian mixture models
-- 2.2. Manifold learning
+- 2.2. Manifold learning|Nonlinear dimensionality reduction | NLDR
+  - NLDR refers to various related techniques that aim to project high-dimensional data onto lower-dimensional latent manifolds, with the goal of either visualizing the data in the low-dimensional space, or learning the mapping (either from the high-dimensional space to the low-dimensional embedding or vice versa) itself.
+  - NLDR can be understood as generalizations of linear decomposition methods used for dimensionality reduction, such as singular value decomposition(SVD) and principal component analysis(PCA).
+  - [Manifold learning on handwritten digits: Locally Linear Embedding, Isomap…]() 
 - 👍2.3. Clustering
 - 2.4. Biclustering: Spectral Co-Clustering | Spectral Biclustering
 - 👍2.5. [Decomposing signals in components (matrix factorization problems)](https://scikit-learn.org/stable/modules/decomposition.html)
