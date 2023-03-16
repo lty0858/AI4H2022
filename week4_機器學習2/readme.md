@@ -2,12 +2,12 @@
 # 非監督學習
 - Unsupervised Learning 
 - clustering
-  - k-mean Unsupervised Learning
+  - [k-mean Unsupervised Learning](./K-means.md)
   - other clustering algorithm 
-  - Ensemble Learning with k-means
+  - [Ensemble Learning with k-means](./EnsembleLearning_k-means.md)
 - Dimension reduction
-  - PCA
-  - t-Distributed Stochastic Neighbor Embedding (t-SNE) 2008
+  - [PCA](./PCA.md)
+  - [t-Distributed Stochastic Neighbor Embedding (t-SNE) 2008](./TSNE.md)
 # Ensemble Learning
 - Ensemble Learning
 - 非生成式演算法:投票法（Voting）
