@@ -4,6 +4,7 @@
   - NLDR refers to various related techniques that aim to project high-dimensional data onto lower-dimensional latent manifolds, with the goal of either visualizing the data in the low-dimensional space, or learning the mapping (either from the high-dimensional space to the low-dimensional embedding or vice versa) itself.
   - NLDR can be understood as generalizations of linear decomposition methods used for dimensionality reduction, such as singular value decomposition(SVD) and principal component analysis(PCA).
   - 範例[Manifold learning on handwritten digits: Locally Linear Embedding, Isomap…](https://scikit-learn.org/stable/auto_examples/manifold/plot_lle_digits.html) 
+  - 教學影片[Introduction to Machine Learning - 11 - Manifold learning and t-SNE]()
   - 哈佛大學論文 [The Mathematical Foundations of Manifold Learning()| Luke Melas-Kyriazi](https://arxiv.org/abs/2011.01307)
 - 👍2.3. Clustering
 - 2.4. Biclustering: Spectral Co-Clustering | Spectral Biclustering
@@ -37,6 +38,9 @@
 - 其他
   - 自組織對映演算法（SOM） 
 
+# 學習資源
+- [ Introduction to Machine Learning — Dmitry Kobak, 2020/21 |Tübingen Machine Learning](https://www.youtube.com/playlist?list=PL05umP7R6ij35ShKLDqccJSDntugY4FQT)
+- 👍[tomohiroliu22/Machine-Learning-Algorithm](https://github.com/tomohiroliu22/Machine-Learning-Algorithm)
 # 非監督學習(參考資訊)
 - [Hands-on Unsupervised Learning Using Python](https://www.oreilly.com/library/view/hands-on-unsupervised-learning/9781492035633/) 
   - [GITHUB](https://github.com/aapatel09/handson-unsupervised-learning)
@@ -51,4 +55,4 @@
   - Market Basket Analysis
   - Hotspot Analysis 
 - [The Unsupervised Learning Workshop(2020)](https://www.packtpub.com/product/the-unsupervised-learning-workshop/9781800200708) [GITHUB](https://github.com/PacktWorkshops/The-Unsupervised-Learning-Workshop)
-- 👍[tomohiroliu22/Machine-Learning-Algorithm](https://github.com/tomohiroliu22/Machine-Learning-Algorithm)
+
