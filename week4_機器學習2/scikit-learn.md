@@ -43,3 +43,42 @@
 - 👍sklearn.utils: Utilities
 
 # [Examples官方範例](https://scikit-learn.org/stable/auto_examples/index.html)
+- Release Highlights
+- Biclustering
+- Calibration
+- 👍👍Classification
+  - 👍[Recognizing hand-written digits:使用SVM 手寫數字辨識](https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html#sphx-glr-auto-examples-classification-plot-digits-classification-py)
+  - 👍👍[Classifier comparison:A comparison of a several classifiers in scikit-learn on synthetic datasets.](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html#sphx-glr-auto-examples-classification-plot-classifier-comparison-py) 
+- Clustering
+- Covariance estimation
+- Cross decomposition
+- Dataset examples
+- Decision Trees
+  - 👍[Understanding the decision tree structure](https://scikit-learn.org/stable/auto_examples/tree/plot_unveil_tree_structure.html#sphx-glr-auto-examples-tree-plot-unveil-tree-structure-py) 
+  - [Plot the decision surface of decision trees trained on the iris dataset](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html#sphx-glr-auto-examples-tree-plot-iris-dtc-py)
+- Decomposition
+- Ensemble methods
+- Examples based on real world datasets
+- Feature Selection
+- Gaussian Mixture Models
+- Gaussian Process for Machine Learning
+- Generalized Linear Models
+- Inspection
+- Kernel Approximation
+- Manifold learning
+- Miscellaneous
+- Missing Value Imputation
+- Model Selection
+- Multioutput methods
+- Nearest Neighbors
+- Neural Networks
+- Pipelines and composite estimators
+- Preprocessing
+- Semi Supervised Classification
+- Support Vector Machines
+- Tutorial exercises
+- Working with text documents
+
+Release Highlights
+
+
