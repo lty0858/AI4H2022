@@ -12,7 +12,9 @@
 - Dimension reduction
   - [PCA](./PCA.md)
   - [t-Distributed Stochastic Neighbor Embedding (t-SNE) 2008](./tsne.md)
-
+- Anomaly DETECTION
+  - [區域性異常因子(Local Outlier Factor)](./lof.MD)
+  - [IsolationForest](./IsolationForest.md)
 # Ensemble Learning
 - Ensemble Learning
 - 非生成式演算法:投票法（Voting）
