@@ -1,6 +1,8 @@
 # PCA
 - [PCA : the basics - simply explained](https://www.youtube.com/watch?v=dz8imS1vwIM)
 - 👍[PCA : the math - step-by-step with a simple example](https://www.youtube.com/watch?v=S51bTyIwxFs)
+- [Principal Component Analysis with Python](https://www.geeksforgeeks.org/principal-component-analysis-with-python/)
+- [Lecture 15.1 — From PCA to autoencoders — [ Deep Learning | Geoffrey Hinton | UofT ]](https://www.youtube.com/watch?v=PSOt7u8u23w&t=48s)
 
 # 增量 PCA
 - 當要分解的資料集太大而無法放入記憶體時，通常使用增量主成分分析 (IPCA) 。
