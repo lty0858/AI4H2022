@@ -33,7 +33,7 @@
     - [Anomaly detection using Isolation Forest – A Complete Guide](https://www.analyticsvidhya.com/blog/2021/07/anomaly-detection-using-isolation-forest-a-complete-guide/)
   - PyOD套件 2019
     - [PyOD: A Python Toolbox for Scalable Outlier Detection]()  
-  - ADBench
+  - ADBench 2022
     - [ADBench: Anomaly Detection Benchmark(2022)](https://arxiv.org/abs/2206.09426)  [GITHUB](https://github.com/Minqi824/ADBench)
 # 深度學習
 - GAN 
