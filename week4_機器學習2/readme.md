@@ -16,6 +16,9 @@
 - Anomaly DETECTION
   - [區域性異常因子(Local Outlier Factor)](./lof.MD)
   - [IsolationForest](./IsolationForest.md)
+  - 其他主題
+    - [Python Outlier Detection (PyOD)](https://github.com/yzhao062/pyod)  pip install pyod
+    - [ODDS (Outlier Detection Datasets)](http://odds.cs.stonybrook.edu) 
 # Ensemble Learning
 - Ensemble Learning
 - 非生成式演算法:投票法（Voting）
