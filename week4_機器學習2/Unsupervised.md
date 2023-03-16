@@ -31,7 +31,10 @@
       - clf = IsolationForest(random_state=0).fit(X)
       - clf.predict([[0.1], [0], [90]])
     - [Anomaly detection using Isolation Forest – A Complete Guide](https://www.analyticsvidhya.com/blog/2021/07/anomaly-detection-using-isolation-forest-a-complete-guide/)
-
+  - PyOD套件 2019
+    - [PyOD: A Python Toolbox for Scalable Outlier Detection]()  
+  - ADBench
+    - [ADBench: Anomaly Detection Benchmark(2022)](https://arxiv.org/abs/2206.09426)  [GITHUB](https://github.com/Minqi824/ADBench)
 # 深度學習
 - GAN 
 - 自動編碼器（Autoencoder）與 VAE
