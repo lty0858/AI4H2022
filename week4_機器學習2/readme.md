@@ -2,7 +2,7 @@
 # [scikit-learn](./scikit-learn.md)
   - [資料集匯入與產生](./Datasets.md)
 # 非監督學習
-- Unsupervised Learning 
+- Unsupervised Learning [scikit-learn支援的Unsupervised learning演算法](./Unsupervised.md)
 - clustering
   - [k-mean Unsupervised Learning](./K-means.md)
   - other clustering algorithm 
