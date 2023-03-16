@@ -8,7 +8,7 @@
   - [Ensemble Learning with k-means](./EnsembleLearning_k-means.md)
 - Dimension reduction
   - [PCA](./PCA.md)
-  - [t-Distributed Stochastic Neighbor Embedding (t-SNE) 2008](./TSNE.md)
+  - [t-Distributed Stochastic Neighbor Embedding (t-SNE) 2008](./tsne.md)
 # Ensemble Learning
 - Ensemble Learning
 - 非生成式演算法:投票法（Voting）
