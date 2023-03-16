@@ -12,6 +12,7 @@
 - 👍2.9. Neural network models (unsupervised)
 
 # [Anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection)|  Novelty Detection | Outlier Detection 孤立子偵測 
+![Outlier Detection 孤立子偵測](./outlier.jpg)
   - Local Outlier Factor (LOF) 2000
     - 論文 [LOF: Identifying Density-Based Local Outliers ](https://www.dbs.ifi.lmu.de/Publikationen/Papers/LOF.pdf) 
     - 官方範例[Outlier detection with Local Outlier Factor (LOF)](https://scikit-learn.org/stable/auto_examples/neighbors/plot_lof_outlier_detection.html#:~:text=The%20Local%20Outlier%20Factor%20(LOF,lower%20density%20than%20their%20neighbors.))
