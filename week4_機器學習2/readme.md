@@ -7,6 +7,7 @@
   - [k-mean Unsupervised Learning](./K-means.md)
   - other clustering algorithm 
     - [DBSCAN](./DBSCAN.md)
+    - [affinity propagation clustering algorithm](./AffinityPropagationclustering.md)
   - [Ensemble Learning with k-means](./EnsembleLearning_k-means.md)
 - Dimension reduction
   - [PCA](./PCA.md)
