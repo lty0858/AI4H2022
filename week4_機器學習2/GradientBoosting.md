@@ -1,8 +1,9 @@
 # Gradient Boosting
 - Python 硬派實作
-- 使用
+- 使用scikit-learn
 - 使用XGBoost(eXtreme Gradient Boosting)
   - [XGBoost Documentation](https://xgboost.readthedocs.io/en/stable/) 
+  - [Hands-On Gradient Boosting with XGBoost and scikit-learn(2020)](https://www.packtpub.com/product/hands-on-gradient-boosting-with-xgboost-and-scikit-learn/9781839218354)
 - 使用LightGBM (Light Gradient Boosting Machine) 2017
   - 微軟團隊[LightGBM: A Highly Efficient Gradient Boosting Decision Tree ](https://papers.nips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html).
 - 使用CatBoost
