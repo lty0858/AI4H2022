@@ -28,5 +28,5 @@
 - 生成式演算法:提升法（Boosting）
 - 生成式演算法:適應提升（Adaptive Boosting, AdaBoost）
 - 生成式演算法:梯度提升（Gradient Boosting）
-- 生成式演算法:隨機森林（Random Forest）
+- 生成式演算法:[隨機森林（Random Forest）](./RF.md)
 
