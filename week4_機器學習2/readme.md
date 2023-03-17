@@ -24,9 +24,9 @@
 - Ensemble Learning
 - 非生成式演算法:[投票法（Voting）](./Voting.md)
 - 非生成式演算法:堆疊法（Stacking）
-- 生成式演算法:自助聚合法（Bootstrap Aggregation） Bagging
+- 生成式演算法:自助聚合法（Bootstrap Aggregation） [Bagging](./Bagging.md)
 - 生成式演算法:提升法（Boosting）
-- 生成式演算法:適應提升（Adaptive Boosting, AdaBoost）
-- 生成式演算法:梯度提升（Gradient Boosting）
+- 生成式演算法:適應提升（Adaptive Boosting, AdaBoost） [AdaBoost](./AdaBoost.md)
+- 生成式演算法:梯度提升（Gradient Boosting） [Gradient Boosting](./GradientBoosting.md)
 - 生成式演算法:[隨機森林（Random Forest）](./RF.md)
 
