@@ -1,4 +1,4 @@
-# TSNE:t-隨機鄰近嵌入法
+# TSNE:t-隨機鄰近嵌入法  [WIKI](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding)
 - t-distributed stochastic neighbor embedding
 - Van der Maaten, L., & Hinton, G. (2008). Visualizing data using t-SNE. Journal of machine learning research, 9(11)
 - 👍[Van der Maaten官方網址](https://lvdmaaten.github.io/tsne/) 
