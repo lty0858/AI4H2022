@@ -102,14 +102,14 @@ print('MSE: %.2f' % mse)
 - 資料集: Optical Recognition of Handwritten Digits Data Set
 - [sklearn.datasets.load_digits](sklearn.datasets.load_digits)
 
-## 
+### 使用scikit-learn `GradientBoostingClassifier`  
 ```python
 # Libraries and data loading
 import numpy as np
 
 from sklearn.datasets import load_digits
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.ensemble import GradientBoostingClassifier  # 使用scikit-learn版本
 from sklearn import metrics
 
 
@@ -120,10 +120,12 @@ train_x, train_y = digits.data[:train_size], digits.target[:train_size]
 test_x, test_y = digits.data[train_size:], digits.target[train_size:]
 
 np.random.seed(123456)
+
 # --- SECTION 2 ---
 # Create the ensemble
 ensemble_size = 200
 learning_rate = 0.1
+
 ensemble = GradientBoostingClassifier(n_estimators=ensemble_size,
                                       learning_rate=learning_rate)
 
@@ -152,8 +154,8 @@ ax1.plot(ensemble.train_score_, linestyle='--', label='Errors (Left axis)')
 ax2 = ax1.twinx()
 ax2.plot(diffs, label='Errors Differences (Right axis)')
 fig.legend()
-
 ```
+### 使用XGBoost(eXtreme Gradient Boosting)
 
 # [Gradient Boosting Algorithm: A Complete Guide for Beginners](https://www.analyticsvidhya.com/blog/2021/09/gradient-boosting-algorithm-a-complete-guide-for-beginners/)
 - [資料集 Income classification@kaggle](https://www.kaggle.com/lodetomasi1995/income-classification)
