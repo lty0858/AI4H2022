@@ -1,7 +1,7 @@
 # Gradient Boosting 1999
 - [Gradient boosting|WIKI](https://en.wikipedia.org/wiki/Gradient_boosting)
 - [Friedman, J. H. (February 1999). "Greedy Function Approximation: A Gradient Boosting Machine"](https://jerryfriedman.su.domains/ftp/trebst.pdf)
-
+- [Practical Federated Gradient Boosting Decision Trees(2019)](https://arxiv.org/abs/1911.04206)
 ## Gradient Boosting實作大車拚
 - Python 硬派實作
 - 使用scikit-learn
@@ -10,7 +10,9 @@
   - [Hands-On Gradient Boosting with XGBoost and scikit-learn(2020)](https://www.packtpub.com/product/hands-on-gradient-boosting-with-xgboost-and-scikit-learn/9781839218354)
 - 使用LightGBM (Light Gradient Boosting Machine) 2017
   - 微軟團隊[LightGBM: A Highly Efficient Gradient Boosting Decision Tree ](https://papers.nips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html).
+  - [LightGBM’s documentation](https://lightgbm.readthedocs.io/en/v3.3.2/)
   - [Predicting Diabetes Using LightGBM and SHAP]()
+  - [Machine Learning Models for Data-Driven Prediction of Diabetes by Lifestyle Type()]()
 - 使用CatBoost 2017
   - Anna Veronika Dorogush, Andrey Gulin, Gleb Gusev, Nikita Kazeev, Liudmila Ostroumova Prokhorenkova, Aleksandr Vorobev "Fighting biases with dynamic boosting". arXiv:1706.09516, 2017.
   - [CatBoost: unbiased boosting with categorical features](https://arxiv.org/abs/1706.09516)
@@ -95,8 +97,61 @@ print('Gradient Boosting:')
 print('R-squared: %.2f' % r2)
 print('MSE: %.2f' % mse)
 ```
+### 使用scikit-learn
+```python
+ Libraries and data loading
+from sklearn.datasets import load_diabetes
+from sklearn.ensemble import GradientBoostingRegressor
+from sklearn import metrics
+
+import numpy as np
+
+diabetes = load_diabetes()
+
+train_size = 400
+train_x, train_y = diabetes.data[:train_size], diabetes.target[:train_size]
+test_x, test_y = diabetes.data[train_size:], diabetes.target[train_size:]
+
+np.random.seed(123456)
+
+# --- SECTION 2 ---
+# Create the ensemble
+ensemble_size = 200
+learning_rate = 0.1
+ensemble = GradientBoostingRegressor(n_estimators=ensemble_size,
+                                     learning_rate=learning_rate)
+
+# --- SECTION 3 ---
+# Evaluate the ensemble
+ensemble.fit(train_x, train_y)
+predictions = ensemble.predict(test_x)
+
+# --- SECTION 4 ---
+# Print the metrics
+r2 = metrics.r2_score(test_y, predictions)
+mse = metrics.mean_squared_error(test_y, predictions)
+
+print('Gradient Boosting:')
+print('R-squared: %.2f' % r2)
+print('MSE: %.2f' % mse)
 
 
+import matplotlib.pyplot as plt
+diffs = [ensemble.train_score_[i] - ensemble.train_score_[i-1] for i in range(1, len(ensemble.train_score_))]
+
+fig, ax1 = plt.subplots()
+ax1.plot(ensemble.train_score_, linestyle='--', label='Errors (Left axis)')
+
+
+ax2 = ax1.twinx()
+ax2.plot(diffs, label='Errors Differences (Right axis)')
+fig.legend()
+```
+### 使用XGBoost(eXtreme Gradient Boosting)
+```python
+
+
+```
 
 # 分類
 - 資料集: Optical Recognition of Handwritten Digits Data Set
