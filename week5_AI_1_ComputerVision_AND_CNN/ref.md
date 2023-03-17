@@ -20,3 +20,4 @@
 - [Mastering Computer Vision with TensorFlow 2.x(2020)](https://www.packtpub.com/product/mastering-computer-vision-with-tensorflow-2x/9781838827069)
   - [TensorFlow 2.x 高級電腦視覺](https://www.tenlong.com.tw/products/9787302614586?list_name=srh)
 - [TensorFlow 2.0 Computer Vision Cookbook(2021)](https://www.packtpub.com/product/tensorflow-20-computer-vision-cookbook/9781838829131)
+- [Modern Computer Vision with PyTorch(2020)](https://www.packtpub.com/product/modern-computer-vision-with-pytorch/9781839213472)
