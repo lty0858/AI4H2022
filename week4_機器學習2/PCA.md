@@ -8,6 +8,24 @@
 - 當要分解的資料集太大而無法放入記憶體時，通常使用增量主成分分析 (IPCA) 。
 - IPCA 使用與輸入資料樣本數量無關的記憶體量為輸入資料構建低秩近似。
 - 它仍然依賴於輸入資料特徵，但改變批量大小可以控制記憶體使用。
+
+# [sklearn.decomposition.PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html#sklearn.decomposition.PCA)
+```python
+
+import numpy as np
+from sklearn.decomposition import PCA
+
+X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
+
+pca = PCA(n_components=2)
+
+pca.fit(X)
+
+print(pca.explained_variance_ratio_)
+
+print(pca.singular_values_)
+```
+
 # 官方範例[Principal components analysis (PCA)](https://scikit-learn.org/stable/auto_examples/decomposition/plot_pca_3d.html#sphx-glr-auto-examples-decomposition-plot-pca-3d-py) 
 ```python
 
