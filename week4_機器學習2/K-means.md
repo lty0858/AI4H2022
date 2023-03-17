@@ -6,6 +6,7 @@
   - 4.將資料點分給距離最近的那個群心。
   - 5.在所有資料點都分配完畢後，每一群再用剛剛分配到的資料點算平均(means)來更新群心。
   - 6.最後不斷重複3–5 的動作，直到收斂 ( 每次更新後群心都已經不太會變動 ) 後結束。
+- 👍[Understanding K-Means, K-Means++ and, K-Medoids Clustering Algorithms](https://towardsdatascience.com/understanding-k-means-k-means-and-k-medoids-clustering-algorithms-ad9c9fbf47ca)
 # [sklearn.cluster.KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
 ```python
 from sklearn.cluster import KMeans
