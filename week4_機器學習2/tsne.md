@@ -5,6 +5,10 @@
   - 有許多補充資料 
 - [Visualizing Data Using t-SNE(2013)](https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw)
 - [機器學習_學習筆記系列(78)：t-隨機鄰近嵌入法(t-distributed stochastic neighbor embedding)](https://tomohiroliu22.medium.com/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98%E7%B3%BB%E5%88%97-78-t-%E9%9A%A8%E6%A9%9F%E9%84%B0%E8%BF%91%E5%B5%8C%E5%85%A5%E6%B3%95-t-distributed-stochastic-neighbor-embedding-a0ed57759769)
+- [[筆記] 如何使用 t-SNE 進行降維](https://mortis.tech/2019/11/program_note/664/)
+- [利用降維技巧檢視資料分群狀態：PCA, tSNE, SVD, SOM](https://ithelp.ithome.com.tw/m/articles/10278992)
+- [淺談降維方法中的 PCA 與 t-SNE](https://medium.com/d-d-mag/%E6%B7%BA%E8%AB%87%E5%85%A9%E7%A8%AE%E9%99%8D%E7%B6%AD%E6%96%B9%E6%B3%95-pca-%E8%88%87-t-sne-d4254916925b)
+- [t-SNE：可视化效果最好的降维算法](https://zhuanlan.zhihu.com/p/327699974?utm_id=0)
 - 教學影片[t-SNE(T-distributed Stochastic Neighbourhood Embedding)](https://www.youtube.com/playlist?list=PLupD_xFct8mHqCkuaXmeXhe0ajNDu0mhZ)
 - t-SNE is a tool to visualize high-dimensional data. 
 - It converts similarities between data points to joint probabilities and tries to minimize the Kullback-Leibler divergence between the joint probabilities of the low-dimensional embedding and the high-dimensional data. 
