@@ -1,9 +1,7 @@
 # 機器學習
 
-- https://meet.google.com/kfv-bbdj-nfm
 
 
-- 8wingflying@gmail.com
 
 # 1.機器學習演算法 [開發套件 scikit-learn](https://scikit-learn.org/stable/)
 
