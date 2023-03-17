@@ -11,8 +11,9 @@
 - t-SNE has a cost function that is not convex, i.e. with different initializations we can get different results.
 
 # Student t-distribution
-- [WIKI](https://en.wikipedia.org/wiki/Student%27s_t-distribution)
-
+- [WIKI](https://en.wikipedia.org/wiki/Student%27s_t-distribution) [中文版WIKI](https://zh.wikipedia.org/wiki/%E5%8F%B8%E5%BE%92%E9%A0%93t%E5%88%86%E5%B8%83)
+- 在機率論及統計學中用於根據小樣本來估計母體呈常態分布且標準差未知的期望值。
+- 若母體標準差已知，或是樣本數足夠大時（依據中央極限定理漸進常態分布），則應使用常態分布來進行估計。
 
 # [sklearn.manifold.TSNE](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html#sklearn.manifold.TSNE)
 ```python
