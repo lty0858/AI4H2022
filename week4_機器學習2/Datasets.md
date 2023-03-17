@@ -14,6 +14,7 @@
 
 - [Iris Species@kaggle](https://www.kaggle.com/datasets/uciml/iris/versions/2?resource=download)
   - [Ensemble Learning Techniques Tutorial](https://www.kaggle.com/code/pavansanagapati/ensemble-learning-techniques-tutorial) 
+- [sklearn.datasets.load_iris](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html#sklearn.datasets.load_iris) 
 ### 1、自帶的小資料集
 -  loaders 可用來載入小的標準資料集
 -  資料集還包含一些對DESCR描述
