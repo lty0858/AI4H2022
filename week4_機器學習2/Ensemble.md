@@ -21,7 +21,7 @@
 | ensemble.RandomForestRegressor([...]) <br> A random forest regressor.| ensemble.RandomTreesEmbedding([...])<br> An ensemble of totally random trees.|
 | ensemble.StackingClassifier(estimators[, ...])<br> Stack of estimators with a final classifier.| ensemble.StackingRegressor(estimators[, ...])<br> Stack of estimators with a final regressor.|
 | ensemble.VotingClassifier(estimators, `*[, ...]`) <br>Soft Voting/Majority Rule classifier for unfitted estimators.| ensemble.VotingRegressor(estimators, `*[, ...]`)<br>Prediction voting regressor for unfitted estimators.|
-| ensemble.HistGradientBoostingRegressor([...]) <br>Histogram-based Gradient Boosting Regression Tree. |ensemble.HistGradientBoostingClassifier([...])<br> Histogram-based Gradient Boosting Classification Tree.|
+|ensemble.HistGradientBoostingClassifier([...])<br> Histogram-based Gradient Boosting Classification Tree.| ensemble.HistGradientBoostingRegressor([...]) <br>Histogram-based Gradient Boosting Regression Tree. |
 
 # 參考書籍
 - [Hands-On Ensemble Learning with Python](https://www.packtpub.com/product/hands-on-ensemble-learning-with-python/9781789612851) [GITHUB](https://github.com/PacktPublishing/Hands-On-Ensemble-Learning-with-Python)
