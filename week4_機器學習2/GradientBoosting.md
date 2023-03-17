@@ -11,7 +11,10 @@
 - 使用LightGBM (Light Gradient Boosting Machine) 2017
   - 微軟團隊[LightGBM: A Highly Efficient Gradient Boosting Decision Tree ](https://papers.nips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html).
   - [Predicting Diabetes Using LightGBM and SHAP]()
-- 使用CatBoost
+- 使用CatBoost 2017
+  - Anna Veronika Dorogush, Andrey Gulin, Gleb Gusev, Nikita Kazeev, Liudmila Ostroumova Prokhorenkova, Aleksandr Vorobev "Fighting biases with dynamic boosting". arXiv:1706.09516, 2017.
+  - [CatBoost: unbiased boosting with categorical features](https://arxiv.org/abs/1706.09516)
+  - Anna Veronika Dorogush, Vasily Ershov, Andrey Gulin "CatBoost: gradient boosting with categorical features support". Workshop on ML Systems at NIPS 2017.
   - [你听过 CatBoost 吗？本文教你如何使用 CatBoost 进行快速梯度提升](https://aijishu.com/a/1060000000143372) 
 # 迴歸
 - 資料集 [Diabetes(糖尿病) Dataset| Kaggle](https://www.kaggle.com/datasets/mathchi/diabetes-data-set)
