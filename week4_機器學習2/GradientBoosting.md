@@ -10,11 +10,13 @@
   - [Hands-On Gradient Boosting with XGBoost and scikit-learn(2020)](https://www.packtpub.com/product/hands-on-gradient-boosting-with-xgboost-and-scikit-learn/9781839218354)
 - 使用LightGBM (Light Gradient Boosting Machine) 2017
   - 微軟團隊[LightGBM: A Highly Efficient Gradient Boosting Decision Tree ](https://papers.nips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html).
+  - [Predicting Diabetes Using LightGBM and SHAP]()
 - 使用CatBoost
   - [你听过 CatBoost 吗？本文教你如何使用 CatBoost 进行快速梯度提升](https://aijishu.com/a/1060000000143372) 
-
-# 分類
-### 
+# 迴歸
+- 資料集 [Diabetes(糖尿病) Dataset| Kaggle](https://www.kaggle.com/datasets/mathchi/diabetes-data-set)
+- [sklearn.datasets.load_diabetes](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html)
+### Python 硬派實作 see ch6.6
 ```python
 # --- SECTION 1 ---
 # Libraries and data loading
@@ -89,6 +91,11 @@ print('Gradient Boosting:')
 print('R-squared: %.2f' % r2)
 print('MSE: %.2f' % mse)
 ```
+
+
+
+# 分類
+
 
 # [Gradient Boosting Algorithm: A Complete Guide for Beginners](https://www.analyticsvidhya.com/blog/2021/09/gradient-boosting-algorithm-a-complete-guide-for-beginners/)
 - [資料集 Income classification@kaggle](https://www.kaggle.com/lodetomasi1995/income-classification)
