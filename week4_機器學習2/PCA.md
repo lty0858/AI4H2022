@@ -1,4 +1,5 @@
 # PCA
+- 👍[機器/統計學習:主成分分析(Principal Component Analysis, PCA)](https://chih-sheng-huang821.medium.com/%E6%A9%9F%E5%99%A8-%E7%B5%B1%E8%A8%88%E5%AD%B8%E7%BF%92-%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90-principle-component-analysis-pca-58229cd26e71)
 - [PCA : the basics - simply explained](https://www.youtube.com/watch?v=dz8imS1vwIM)
 - 👍[PCA : the math - step-by-step with a simple example](https://www.youtube.com/watch?v=S51bTyIwxFs)
 - [Principal Component Analysis with Python](https://www.geeksforgeeks.org/principal-component-analysis-with-python/)
@@ -10,6 +11,10 @@
 - 它仍然依賴於輸入資料特徵，但改變批量大小可以控制記憶體使用。
 
 # [sklearn.decomposition.PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html#sklearn.decomposition.PCA)
+- 👍[Day18-Scikit-learn介紹(10)_ Principal Component Analysis](https://ithelp.ithome.com.tw/articles/10206243)
+- n_components：要保留組件的數量
+- pca.n_components_查看保留的組件數
+- pca.explained_variance_ 解釋平方差
 ```python
 
 import numpy as np
