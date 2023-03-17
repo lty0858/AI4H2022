@@ -63,4 +63,6 @@
 - ColorGAN 2019
   - 論文[End-to-End Conditional GAN-based Architectures for Image Colourisation](https://arxiv.org/abs/1908.09873)
   - [官方GITHUB](https://github.com/bbc/ColorGAN)
+
+## GAN應用
 - [Generative Adversarial Networks for Malware Detection: a Survey](https://arxiv.org/search/?query=Generative+Adversarial+Networks&searchtype=all&source=header)
