@@ -21,7 +21,7 @@
     - [ODDS (Outlier Detection Datasets)](http://odds.cs.stonybrook.edu) 
 # Ensemble Learning
 - Ensemble Learning
-- 非生成式演算法:投票法（Voting）
+- 非生成式演算法:[投票法（Voting）](./Voting.md)
 - 非生成式演算法:堆疊法（Stacking）
 - 生成式演算法:自助聚合法（Bootstrap Aggregation）
 - 生成式演算法:提升法（Boosting）
