@@ -12,7 +12,8 @@
   - 4、svmlight/libsvm格式的資料集:sklearn.datasets.load_svmlight_file(...)
   - 5、從data.org線上下載獲取的資料集:sklearn.datasets.fetch_mldata(...)
 
-- [Iris Species](https://www.kaggle.com/datasets/uciml/iris/versions/2?resource=download)
+- [Iris Species@kaggle](https://www.kaggle.com/datasets/uciml/iris/versions/2?resource=download)
+  - [Ensemble Learning Techniques Tutorial](https://www.kaggle.com/code/pavansanagapati/ensemble-learning-techniques-tutorial) 
 ### 1、自帶的小資料集
 -  loaders 可用來載入小的標準資料集
 -  資料集還包含一些對DESCR描述
