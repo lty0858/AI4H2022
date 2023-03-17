@@ -102,7 +102,7 @@ print('MSE: %.2f' % mse)
 - 資料集: Optical Recognition of Handwritten Digits Data Set
 - [sklearn.datasets.load_digits](sklearn.datasets.load_digits)
 
-### 使用scikit-learn `GradientBoostingClassifier`  
+### 使用scikit-learn `GradientBoostingClassifier`   see CH 6.8
 ```python
 # Libraries and data loading
 import numpy as np
