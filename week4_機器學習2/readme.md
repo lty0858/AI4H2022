@@ -11,8 +11,8 @@
     - [叢集演算法大車拚](ClusteringALL.md)
   - [Ensemble Learning with k-means](./EnsembleLearning_k-means.md)
 - Dimension reduction
-  - [PCA](./PCA.md)
-  - [t-Distributed Stochastic Neighbor Embedding (t-SNE) 2008](./tsne.md)
+  - Linear dimensionality reduction  ==> [PCA](./PCA.md)
+  - NON-Linear dimensionality reduction(Manifold Laerning) ==> [t-Distributed Stochastic Neighbor Embedding (t-SNE) 2008](./tsne.md)
 - Anomaly DETECTION
   - [區域性異常因子(Local Outlier Factor)](./lof.md)
   - [IsolationForest](./IsolationForest.md)
