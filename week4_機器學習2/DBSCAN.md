@@ -3,7 +3,7 @@
 - [重要值得看的wiki](https://en.wikipedia.org/wiki/DBSCAN) 
 - [DBSCAN Clustering Algorithm in Machine Learning(2022)](https://www.kdnuggets.com/2020/04/dbscan-clustering-algorithm-machine-learning.html#:~:text=low%20point%20density.-,Density%2DBased%20Spatial%20Clustering%20of%20Applications%20with%20Noise%20(DBSCAN),is%20containing%20noise%20and%20outliers.)
 - [【機器學習】基於密度的聚類演算法 DBSCAN(2020)](https://jason-chen-1992.weebly.com/home/-dbscan)
-# [DBSCAN 範例 frpm sklearn.cluster.DBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html)
+# [DBSCAN 範例 from sklearn.cluster.DBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html)
 ```python
 from sklearn.cluster import DBSCAN
 import numpy as np
