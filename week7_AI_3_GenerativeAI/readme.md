@@ -28,6 +28,8 @@
   -【TensorFlow 官方教學課程】[Convolutional Variational Autoencoder](https://www.tensorflow.org/tutorials/generative/cvae) 
 - k-Sparse Autoencoder 2013
 - Contractive Autoencoder 2011
+
+
 ## GAN(Generative Adversarial Networks)生成對抗網路
 - [參考書籍](./REF_GAN.md) [The GAN Zoo](https://github.com/hindupuravinash/the-gan-zoo)
 - Generative Adversarial Networks by Ian Goodfellow [Generative Adversarial Networks (NIPS 2016 tutorial)](https://www.youtube.com/watch?v=HGYYEUSm-0Q)
