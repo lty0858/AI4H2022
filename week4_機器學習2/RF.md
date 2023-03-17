@@ -124,7 +124,7 @@ plt.ylabel('Accuracy')
 plt.legend(loc="best")
 ```
 
-## 使用隨機森林分類集成 對 `手寫數字資料集`  進行分類  see ch7.3  rf_regression.py 
+## 隨機森林與迴歸  see ch7.3  rf_regression.py 
 ```python
 # --- SECTION 1 ---
 # Libraries and data loading
@@ -163,3 +163,142 @@ print('Random Forest:')
 print('R-squared: %.2f' % r2)
 print('MSE: %.2f' % mse)
 ```
+## 使用 `極限隨機樹` 處理 分類  see ch7.4
+```python
+
+# --- SECTION 1 ---
+# Libraries and data loading
+from sklearn.datasets import load_digits
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn import metrics
+import numpy as np
+
+digits = load_digits()
+
+
+train_size = 1500
+train_x, train_y = digits.data[:train_size], digits.target[:train_size]
+test_x, test_y = digits.data[train_size:], digits.target[train_size:]
+
+np.random.seed(123456)
+# --- SECTION 2 ---
+# Create the ensemble
+ensemble_size = 500
+ensemble = ExtraTreesClassifier(n_estimators=ensemble_size, n_jobs=4)
+
+# --- SECTION 3 ---
+# Train the ensemble
+ensemble.fit(train_x, train_y)
+
+# --- SECTION 4 ---
+# Evaluate the ensemble
+ensemble_predictions = ensemble.predict(test_x)
+
+ensemble_acc = metrics.accuracy_score(test_y, ensemble_predictions)
+
+# --- SECTION 5 ---
+# Print the accuracy
+print('Extra Tree Forest: %.2f' % ensemble_acc)
+````
+
+```python
+# --- SECTION 1 ---
+# Libraries and data loading
+from sklearn.datasets import load_digits
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.model_selection import validation_curve
+from sklearn import metrics
+import numpy as np
+import matplotlib.pyplot as plt
+
+digits = load_digits()
+
+
+train_size = 1500
+train_x, train_y = digits.data[:train_size], digits.target[:train_size]
+test_x, test_y = digits.data[train_size:], digits.target[train_size:]
+
+np.random.seed(123456)
+# --- SECTION 2 ---
+# Create the ensemble
+ensemble_size = 500
+ensemble = ExtraTreesClassifier(n_estimators=ensemble_size, n_jobs=4)
+
+param_range = [10, 50, 100, 150, 200, 250, 300, 350, 400]
+train_scores, test_scores = validation_curve(ensemble, train_x, train_y, 'n_estimators', param_range,
+                       cv=10, scoring='accuracy')
+
+# --- SECTION 3 ---
+# Calculate the average and standard deviation for each hyperparameter
+train_scores_mean = np.mean(train_scores, axis=1)
+train_scores_std = np.std(train_scores, axis=1)
+test_scores_mean = np.mean(test_scores, axis=1)
+test_scores_std = np.std(test_scores, axis=1)
+
+
+# --- SECTION 4 ---
+# Plot the scores
+plt.figure()
+plt.title('Validation curves (Extra Trees)')
+# Plot the standard deviations
+plt.fill_between(param_range, train_scores_mean - train_scores_std,
+                 train_scores_mean + train_scores_std, alpha=0.1,
+                 color="C1")
+plt.fill_between(param_range, test_scores_mean - test_scores_std,
+                 test_scores_mean + test_scores_std, alpha=0.1, color="C0")
+
+# Plot the means
+plt.plot(param_range, train_scores_mean, 'o-', color="C1",
+         label="Training score")
+plt.plot(param_range, test_scores_mean, 'o-', color="C0",
+         label="Cross-validation score")
+
+plt.xticks(param_range)
+plt.xlabel('Number of trees')
+plt.ylabel('Accuracy')
+plt.legend(loc="best")
+
+````
+
+
+## 極限隨機樹 與迴歸  see ch7.5  
+```python
+# --- SECTION 1 ---
+# Libraries and data loading
+from copy import deepcopy
+from sklearn.datasets import load_diabetes
+from sklearn.ensemble import ExtraTreesRegressor
+from sklearn import metrics
+
+import numpy as np
+
+diabetes = load_diabetes()
+
+train_size = 400
+train_x, train_y = diabetes.data[:train_size], diabetes.target[:train_size]
+test_x, test_y = diabetes.data[train_size:], diabetes.target[train_size:]
+
+np.random.seed(123456)
+
+# --- SECTION 2 ---
+# Create the ensemble
+ensemble_size = 1000
+ensemble = ExtraTreesRegressor(n_estimators=ensemble_size,
+                                 min_samples_leaf=10, n_jobs=4)
+
+# --- SECTION 3 ---
+# Evaluate the ensemble
+ensemble.fit(train_x, train_y)
+predictions = ensemble.predict(test_x)
+
+# --- SECTION 4 ---
+# Print the metrics
+r2 = metrics.r2_score(test_y, predictions)
+mse = metrics.mean_squared_error(test_y, predictions)
+
+print('Extra Trees:')
+print('R-squared: %.2f' % r2)
+print('MSE: %.2f' % mse)
+
+
+````
