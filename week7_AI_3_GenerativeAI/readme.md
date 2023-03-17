@@ -25,7 +25,7 @@
 - Variational autoencoder(VAE) 2013
   - 經典論文[Auto-Encoding Variational Bayes| Diederik P Kingma, Max Welling](https://arxiv.org/abs/1312.6114)
   - 陳縕儂 Vivian NTU MiuLab[台大資訊 深度學習之應用 | ADL 16.3: Variational Auto-Encoder (VAE) 固定特徵的分布資訊](https://www.youtube.com/watch?v=cjjjhHIDjKo)
-  -【TensorFlow 官方教學課程】[Convolutional Variational Autoencoder](https://www.tensorflow.org/tutorials/generative/cvae) 
+  - 【TensorFlow 官方教學課程】[Convolutional Variational Autoencoder](https://www.tensorflow.org/tutorials/generative/cvae) 
 - k-Sparse Autoencoder 2013
 - Contractive Autoencoder 2011
 
