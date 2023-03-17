@@ -2,7 +2,7 @@
 - https://pypi.org/project/Pillow/
 - [Python Pillow Tutorial - GeeksforGeeks](https://www.geeksforgeeks.org/python-pillow-tutorial/)
 - [Tutorial - Pillow (PIL Fork) 9.4.0 documentation](https://pillow.readthedocs.io/en/stable/handbook/tutorial.html)
-
+- [Python Pillow Tutorial - Javatpoint](https://www.javatpoint.com/python-pillow)
 ##
 ```
 from PIL import Image
