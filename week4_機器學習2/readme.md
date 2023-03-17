@@ -19,6 +19,7 @@
   - 其他主題
     - [Python Outlier Detection (PyOD)](https://github.com/yzhao062/pyod)  pip install pyod
     - [ODDS (Outlier Detection Datasets)](http://odds.cs.stonybrook.edu) 
+    - [ADBench: Anomaly Detection Benchmark(2022)](https://www.andrew.cmu.edu/user/yuezhao2/papers/22-neurips-adbench.pdf)
 # Ensemble Learning
 - Ensemble Learning
 - 非生成式演算法:[投票法（Voting）](./Voting.md)
