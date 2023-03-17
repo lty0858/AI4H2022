@@ -18,7 +18,14 @@
 從步驟 2-2 重複直到滿足停止條件，例如最大樹深度
 ```
 
-# scikit-learn 既實現了傳統的隨機森林樹，也實現了額外的樹。
+# scikit-learn 的實現
+- 傳統的隨機森林樹  2001
+  - Breiman, “Random Forests”, Machine Learning, 45(1), 5-32, 2001.
+  - [sklearn.ensemble.RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#sklearn.ensemble.RandomForestClassifier) 
+- Extremely randomized trees 2006
+  - P. Geurts, D. Ernst., and L. Wehenkel, “Extremely randomized trees”, Machine Learning, 63(1), 3-42, 2006.
+  - [機器學習_學習筆記系列(38)：極限隨機樹分類(Extremely Randomized Trees Classifier)](https://tomohiroliu22.medium.com/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98%E7%B3%BB%E5%88%97-38-%E6%A5%B5%E9%99%90%E9%9A%A8%E6%A9%9F%E6%A8%B9%E5%88%86%E9%A1%9E-extremely-randomized-trees-classifier-1fd3d8e31634) 
+  - [sklearn.ensemble.ExtraTreesClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesClassifier.html)
 
 ## 使用隨機森林分類集成 對 `手寫數字資料集`  進行分類  see ch7.2
 ```python
