@@ -29,9 +29,10 @@
 - sequence-to-sequence (seq2seq) model
 
 ## pretrained Model
-- REVIEW[Large-scale Multi-Modal Pre-trained Models: A Comprehensive Survey(2023)](https://arxiv.org/abs/2302.10035) [GITHUB](https://github.com/wangxiao5791509/MultiModal_BigModels_Survey)
-- [On the Opportunities and Risks of Foundation Models(2021)](https://arxiv.org/abs/2108.07258)
-- [A Comprehensive Survey on Pretrained Foundation Models: A History from BERT to ChatGPT(2023)](https://arxiv.org/abs/2302.09419)
+- REVIEW
+  - [Large-scale Multi-Modal Pre-trained Models: A Comprehensive Survey(2023)](https://arxiv.org/abs/2302.10035) [GITHUB](https://github.com/wangxiao5791509/MultiModal_BigModels_Survey)
+  - [On the Opportunities and Risks of Foundation Models(2021)](https://arxiv.org/abs/2108.07258)
+  - [A Comprehensive Survey on Pretrained Foundation Models: A History from BERT to ChatGPT(2023)](https://arxiv.org/abs/2302.09419)
 - BOOKS [全中文自然語言處理：Pre-Trained Model 方法最新實戰|車萬翔、郭江、崔一鳴 著(2022)](https://www.tenlong.com.tw/products/9789860776942?list_name=srh)
 - Transformer 2017
   - 經典論文[Attention Is All You Need](https://arxiv.org/abs/1706.03762)
