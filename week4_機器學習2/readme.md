@@ -1,7 +1,7 @@
 # [Google Colab技巧](https://github.com/TaiwanHolyHigh/AI4H2022/blob/main/week4_%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%922/GoogleColabUsage.md)
 # [scikit-learn](./scikit-learn.md)
   - [資料集匯入與產生](./Datasets.md)
-# 非監督學習
+# 非監督學習 Unsupervised Learning
 - Unsupervised Learning [scikit-learn支援的Unsupervised learning演算法](./Unsupervised.md)
 - clustering
   - [k-mean Unsupervised Learning](./K-means.md)
@@ -30,3 +30,9 @@
 - 生成式演算法:梯度提升（Gradient Boosting） [Gradient Boosting](./GradientBoosting.md)
 - 生成式演算法:[隨機森林（Random Forest）](./RF.md)
 
+# 半監督學習  [semi-supervised Learning](https://scikit-learn.org/stable/modules/semi_supervised.html) 
+- [WIKI](https://en.wikipedia.org/wiki/Semi-Supervised_Learning#Semi-supervised_learning)
+- Self Training
+- LabelPropagation models
+  - scikit-learn provides two label propagation models: LabelPropagation and LabelSpreading. 
+- co-training
