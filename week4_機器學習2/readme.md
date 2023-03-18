@@ -51,6 +51,7 @@
 - [imbalanced-learn documentation](https://imbalanced-learn.org/stable/)
 - [Examples](https://imbalanced-learn.org/stable/auto_examples/index.html)
 - [API reference](https://imbalanced-learn.org/stable/references/index.html)
+- [SMOTE(Synthetic Minority Oversampling Technique)](./SMOTE.md)
 - 重要專案 [Credit Card Fraud Detection | Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
   - 【TensorFlow 官方範例】[Classification on imbalanced data](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data)
   - [A Comparative Study of Credit Card Fraud Detection Using the Combination of Machine Learning Techniques with Data Imbalance Solution(2021)](https://www.researchgate.net/publication/353017833_A_Comparative_Study_of_Credit_Card_Fraud_Detection_Using_the_Combination_of_Machine_Learning_Techniques_with_Data_Imbalance_Solution) 
