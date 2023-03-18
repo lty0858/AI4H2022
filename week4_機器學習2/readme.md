@@ -41,4 +41,4 @@
 - co-training
 - Deep Semi-Supervised Learning Algorithms
   - [Unsupervised Data Augmentation for Consistency Training UDA(2019)](https://arxiv.org/abs/1904.12848)  [GITHUB](https://github.com/google-research/uda)
-  - Google [MixMatch: A Holistic Approach to Semi-Supervised Learning(2019)](https://arxiv.org/abs/1905.02249)
+  - Google [MixMatch: A Holistic Approach to Semi-Supervised Learning(2019)](https://arxiv.org/abs/1905.02249) [GITHUB](https://github.com/google-research/mixmatch)
