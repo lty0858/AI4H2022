@@ -1,4 +1,6 @@
 # [Computer Vision](./CV.md)
+- [Computer Vision: Algorithms and Applications 2/e (Hardcover,2022) Szeliski, Richard](https://www.tenlong.com.tw/products/9783030343712?list_name=srh)
+  - 第一版中譯本 [電腦視覺:算法與應用(套裝共2冊)2012 塞利斯基 (Richard Szeliski)](https://www.tenlong.com.tw/products/9787302269151?list_name=sp) 
 
 # CNN（Convolutional Neural Network）卷積神經網路
 - 【TensorFlow 官方教學課程】[卷積神經網路（Convolutional Neural Network, CNN）]()
