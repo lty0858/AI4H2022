@@ -30,8 +30,14 @@
 - 生成式演算法:梯度提升（Gradient Boosting） [Gradient Boosting](./GradientBoosting.md)
 - 生成式演算法:[隨機森林（Random Forest）](./RF.md)
 
-# 半監督學習  [semi-supervised Learning](https://scikit-learn.org/stable/modules/semi_supervised.html) 
-- [WIKI](https://en.wikipedia.org/wiki/Semi-Supervised_Learning#Semi-supervised_learning)
+# 半監督學習(semi-supervised Learning)
+- [半監督學習semi-supervised Learning](./Semi-supervised_learning.md)
+  - [semi-supervised Learning | scikit-learn](https://scikit-learn.org/stable/modules/semi_supervised.html)
+  - [Semi-Supervised Learning, Explained with Examples](https://www.altexsoft.com/blog/semi-supervised-learning/)
+  - [[free online book] Semi Supervised Learning](http://www.acad.bg/ebook/ml/MITPress-%20SemiSupervised%20Learning.pdf)
+  - Deep Semi-Supervised Learning Algorithms
+    - [Unsupervised Data Augmentation for Consistency Training UDA(2019)](https://arxiv.org/abs/1904.12848) 
+    - Google [MixMatch: A Holistic Approach to Semi-Supervised Learning(2019)](https://arxiv.org/abs/1905.02249)
 - Self Training
 - LabelPropagation models
   - scikit-learn provides two label propagation models: LabelPropagation and LabelSpreading. 
