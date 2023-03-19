@@ -16,7 +16,7 @@
 - Anomaly DETECTION
   - [區域性異常因子(Local Outlier Factor)](./lof.md)
   - [IsolationForest 2012](./IsolationForest.md)
-  - [Extended Isolation Forest (EIF) 2018](./EIF.md)
+  - [Extended Isolation Forest (EIF) 2018](./EIF.md) [GITHUB](https://github.com/sahandha/eif)
   - 其他主題
     - [Python Outlier Detection (PyOD)](https://github.com/yzhao062/pyod)  pip install pyod
     - [ODDS (Outlier Detection Datasets)](http://odds.cs.stonybrook.edu) 
