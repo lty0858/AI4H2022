@@ -50,6 +50,8 @@
     - [You Only Look Once: Unified, Real-Time Object Detection(201506)](https://arxiv.org/abs/1506.02640)
     - YOLOV5
     - [A Comprehensive Review of YOLO: From YOLOv1 to YOLOv8 and Beyond(202304)](https://arxiv.org/abs/2304.00501)
+
+![image-captioning.jpg](./image-captioning.jpg)
 - 圖像標題(Image Captioning)
   - [Image Captioning | Papers With Code](https://paperswithcode.com/task/image-captioning) 
   - 【TensorFlow 官方教學課程】[Image captioning with visual attention](https://www.tensorflow.org/tutorials/text/image_captioning)
