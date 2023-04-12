@@ -19,7 +19,7 @@
     - [The Sequential model](https://www.tensorflow.org/guide/keras/sequential_model)
     - [The Functional API](https://www.tensorflow.org/guide/keras/sequential_model)
     - [Making new Layers and Models via subclassing](https://www.tensorflow.org/guide/keras/custom_layers_and_models)
-- Load and preprocess images
+- [Load and preprocess images](https://www.tensorflow.org/tutorials/load_data/images)
 
 # CNN（Convolutional Neural Network）卷積神經網路
 - 【TensorFlow 官方教學課程】[卷積神經網路（Convolutional Neural Network, CNN）](https://www.tensorflow.org/tutorials/images/cnn)
