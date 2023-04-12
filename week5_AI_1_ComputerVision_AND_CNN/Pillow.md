@@ -1,5 +1,7 @@
 # PILLOW
 - https://pypi.org/project/Pillow/
+- [Day24-Python 影像處理套件 PIL](https://ithelp.ithome.com.tw/articles/10226578)
+- [[Day 21] 從零開始學Python - 基本圖形處理Pillow：花下是誰對影成雙](https://ithelp.ithome.com.tw/articles/10247292)
 - [Python Pillow Tutorial - GeeksforGeeks](https://www.geeksforgeeks.org/python-pillow-tutorial/)
 - [Tutorial - Pillow (PIL Fork) 9.4.0 documentation](https://pillow.readthedocs.io/en/stable/handbook/tutorial.html)
 - [Python Pillow Tutorial - Javatpoint](https://www.javatpoint.com/python-pillow)
