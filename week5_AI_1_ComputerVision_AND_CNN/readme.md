@@ -48,6 +48,7 @@
   - [Object Detection | Papers With Code](https://paperswithcode.com/task/object-detection) 
   - [TensorFlow Hub Object Detection Colab](https://www.tensorflow.org/hub/tutorials/tf2_object_detection)
 - 圖像標題(Image Captioning)
+  - [Image Captioning | Papers With Code](https://paperswithcode.com/task/image-captioning) 
 - 影像分類(Video classification)
   - 【TensorFlow 官方教學課程】[Video classification with a 3D convolutional neural network](https://www.tensorflow.org/tutorials/video/video_classification)
   - 【TensorFlow 官方教學課程】[Transfer learning for video classification with MoViNet](https://www.tensorflow.org/tutorials/video/transfer_learning_with_movinet)
