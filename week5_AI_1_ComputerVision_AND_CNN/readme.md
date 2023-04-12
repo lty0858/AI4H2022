@@ -46,4 +46,6 @@
   - 【TensorFlow 官方教學課程】[Transfer learning for video classification with MoViNet](https://www.tensorflow.org/tutorials/video/transfer_learning_with_movinet)
 - 人體姿態辨識(Human Pose Estimation) 
   - 【TensorFlow 官方教學課程】[MoveNet: Ultra fast and accurate pose detection model.](https://www.tensorflow.org/hub/tutorials/movenet)
+  - [Pose Estimation | Papers With Code](https://paperswithcode.com/task/pose-estimation)
+  - [A Comprehensive Guide to Human Pose Estimation](https://www.v7labs.com/blog/human-pose-estimation-guide)
   - [Human Pose Estimation Technology Capabilities and Use Cases in 2023](https://mobidev.biz/blog/human-pose-estimation-technology-guide) 
