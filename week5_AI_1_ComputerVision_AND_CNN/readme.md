@@ -4,7 +4,7 @@
 - [pillow](./pillow.md)
 - [qrcode](./qrcode.md)
 - [skimage](./skimage.md)
-- [opencv1](./opencv.md)
+- [opencv](./opencv.md)
 
 # Tensorflow/Keras開發技術
 - Tensorflow
