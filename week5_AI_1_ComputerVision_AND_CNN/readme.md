@@ -47,9 +47,9 @@
   - [Object Detection | Papers With Code](https://paperswithcode.com/task/object-detection) 
   - [TensorFlow Hub Object Detection Colab](https://www.tensorflow.org/hub/tutorials/tf2_object_detection)
   - YOLO：You Only Look Once 
-    - [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)
+    - [You Only Look Once: Unified, Real-Time Object Detection(201506)](https://arxiv.org/abs/1506.02640)
     - YOLOV5
-    - [A Comprehensive Review of YOLO: From YOLOv1 to YOLOv8 and Beyond()](https://arxiv.org/abs/2304.00501)
+    - [A Comprehensive Review of YOLO: From YOLOv1 to YOLOv8 and Beyond(202304)](https://arxiv.org/abs/2304.00501)
 - 圖像標題(Image Captioning)
   - [Image Captioning | Papers With Code](https://paperswithcode.com/task/image-captioning) 
   - 【TensorFlow 官方教學課程】[Image captioning with visual attention](https://www.tensorflow.org/tutorials/text/image_captioning)
