@@ -30,6 +30,7 @@
   -  ImageNet ILSVRC 挑戰賽(ImageNet Large Scale Visual Recognition Challenge (ILSVRC)) [ILSVRC](https://www.image-net.org/challenges/LSVRC/)
 - 風格轉換(Style Transfer)
   - 【TensorFlow 官方教學課程】[Fast Style Transfer for Arbitrary Styles](https://www.tensorflow.org/hub/tutorials/tf2_arbitrary_image_stylization) 
+  - 【TensorFlow 官方教學課程】[Neural style transfer](https://www.tensorflow.org/tutorials/generative/style_transfer)
 - 遷移學習(Transfer learning)
   - 【TensorFlow 官方教學課程】 [Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning) 
   - 【TensorFlow 官方教學課程】[Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
