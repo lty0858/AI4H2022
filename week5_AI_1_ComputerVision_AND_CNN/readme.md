@@ -27,10 +27,18 @@
   - 使用 Keras Sequential API，創建和訓練模型只需要幾行代碼。 
 - 圖像分類【TensorFlow 官方教學課程】[Image classification](https://www.tensorflow.org/tutorials/images/classification)
 - CNN Model [Convolutional Neural Networks | Papers With Code](https://paperswithcode.com/methods/category/convolutional-neural-networks)
+  -  ImageNet ILSVRC 挑戰賽(ImageNet Large Scale Visual Recognition Challenge (ILSVRC)) [ILSVRC](https://www.image-net.org/challenges/LSVRC/)
 - 遷移學習(Transfer learning)
   - 【TensorFlow 官方教學課程】 [Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning) 
   - 【TensorFlow 官方教學課程】[Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
 
-# video classification 影像分類
-- 【TensorFlow 官方教學課程】[Video classification with a 3D convolutional neural network](https://www.tensorflow.org/tutorials/video/video_classification)
-- 【TensorFlow 官方教學課程】[Transfer learning for video classification with MoViNet](https://www.tensorflow.org/tutorials/video/transfer_learning_with_movinet)
+# 進階主題
+- 資料擴增
+  - 【TensorFlow 官方教學課程】[Data augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation) 
+- 圖像分割(Image segmentation)
+  - 【TensorFlow 官方教學課程】[Image segmentation]()
+- 物件偵測(Object Detection)
+- 圖像標題(Image Captioning)
+- 影像分類(Video classification)
+  - 【TensorFlow 官方教學課程】[Video classification with a 3D convolutional neural network](https://www.tensorflow.org/tutorials/video/video_classification)
+  - 【TensorFlow 官方教學課程】[Transfer learning for video classification with MoViNet](https://www.tensorflow.org/tutorials/video/transfer_learning_with_movinet)
