@@ -23,3 +23,7 @@ img = cv2.imread('meme.jpg')  # 讀取圖片
 cv2.imshow('oxxostudio',img)        # 賦予開啟的視窗名稱，開啟圖片
 cv2.waitKey(0)                # 設定 0 表示不要主動關閉視窗
 ```
+### 在 Google Colab 中使用 OpenCV 
+- [Colab_OpenCV_Display](https://github.com/OmniXRI/Colab_OpenCV_Display.)
+- [在 Google Colab 中使用 OpenCV 进行图像处理简介](https://blog.csdn.net/qq_42722197/article/details/120170622)
+- [Opencv with Google Colab | Read, Display, and Write Images using OpenCV in google Colab](https://www.youtube.com/watch?v=FdFH2wcrf4Q)
