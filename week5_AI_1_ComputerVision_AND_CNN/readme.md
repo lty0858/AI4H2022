@@ -1,7 +1,7 @@
 # 人工智慧
 # 電腦視覺(Computer Vision)
 # [影像處理](https://zh.wikipedia.org/zh-tw/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86) [Digital image processing](https://en.wikipedia.org/wiki/Digital_image_processing)
-- [pillow](./pillow.md)
+- [pillow](./Pillow.md)
 - [qrcode](./qrcode.md)
 - [skimage](./skimage.md)
 - [opencv](./opencv.md)
