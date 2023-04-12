@@ -1,7 +1,11 @@
 
 #
+- [官方網址](https://opencv.org/)
+- [OpenCV modules](https://docs.opencv.org/4.x/)
+- [OpenCV Tutorials](https://docs.opencv.org/4.x/d9/df8/tutorial_root.html)
 
 # 參考書籍
+- [opencv@tenlong](https://www.tenlong.com.tw/search?availability=buyable&keyword=opencv&langs%5B%5D=all&sort=publication_date)
 - [Python + OpenCV — 機器學習 + 深度學習 40大電腦視覺案例入門到實戰  李立宗 著  深智數位](https://www.tenlong.com.tw/products/9786267273142?list_name=srh)
 - [Building Computer Vision Applications Using Artificial Neural Networks](https://link.springer.com/book/10.1007/978-1-4842-5887-3) 
   - [計算機視覺應用構建：OpenCV 與 TensorFlow 實例](https://www.tenlong.com.tw/products/9787111708766?list_name=srh) 
