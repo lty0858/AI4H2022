@@ -38,6 +38,8 @@
 - 圖像分割(Image segmentation)
   - 【TensorFlow 官方教學課程】[Image segmentation]()
 - 物件偵測(Object Detection)
+  - [Object Detection | Papers With Code](https://paperswithcode.com/task/object-detection) 
+  - [TensorFlow Hub Object Detection Colab](https://www.tensorflow.org/hub/tutorials/tf2_object_detection)
 - 圖像標題(Image Captioning)
 - 影像分類(Video classification)
   - 【TensorFlow 官方教學課程】[Video classification with a 3D convolutional neural network](https://www.tensorflow.org/tutorials/video/video_classification)
