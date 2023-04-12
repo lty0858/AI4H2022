@@ -61,3 +61,5 @@
   - [Pose Estimation | Papers With Code](https://paperswithcode.com/task/pose-estimation)
   - [A Comprehensive Guide to Human Pose Estimation](https://www.v7labs.com/blog/human-pose-estimation-guide)
   - [Human Pose Estimation Technology Capabilities and Use Cases in 2023](https://mobidev.biz/blog/human-pose-estimation-technology-guide) 
+
+# [TensorFlow Developer Certificate](https://www.tensorflow.org/certificate?hl=zh-tw)
