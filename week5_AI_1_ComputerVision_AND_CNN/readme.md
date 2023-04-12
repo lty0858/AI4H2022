@@ -1,5 +1,5 @@
 # [人工智慧](https://zh.wikipedia.org/zh-tw/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD)  [Artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)
-# 電腦視覺(Computer Vision)
+# [電腦視覺](https://zh.wikipedia.org/zh-tw/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89)[Computer Vision](https://en.wikipedia.org/wiki/Computer_vision)
 # [影像處理](https://zh.wikipedia.org/zh-tw/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86) [Digital image processing](https://en.wikipedia.org/wiki/Digital_image_processing)
 - [pillow](./Pillow.md)
 - [qrcode](./qrcode.md)
