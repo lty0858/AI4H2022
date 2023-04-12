@@ -28,6 +28,8 @@
 - 圖像分類【TensorFlow 官方教學課程】[Image classification](https://www.tensorflow.org/tutorials/images/classification)
 - CNN Model [Convolutional Neural Networks | Papers With Code](https://paperswithcode.com/methods/category/convolutional-neural-networks)
   -  ImageNet ILSVRC 挑戰賽(ImageNet Large Scale Visual Recognition Challenge (ILSVRC)) [ILSVRC](https://www.image-net.org/challenges/LSVRC/)
+- 風格轉換(Style Transfer)
+  - 【TensorFlow 官方教學課程】[Fast Style Transfer for Arbitrary Styles](https://www.tensorflow.org/hub/tutorials/tf2_arbitrary_image_stylization) 
 - 遷移學習(Transfer learning)
   - 【TensorFlow 官方教學課程】 [Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning) 
   - 【TensorFlow 官方教學課程】[Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
@@ -37,6 +39,10 @@
   - 【TensorFlow 官方教學課程】[Data augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation) 
 - 圖像分割(Image segmentation)
   - 【TensorFlow 官方教學課程】[Image segmentation]()
+- 語義分割(Semantic Segmentation):將圖像中的所有像素點進行分類
+- 實例分割(Instance Segmentation):物件偵測和語義分割的結合，任務相對較難。
+  - 針對感興趣的像素點進行分類，並且將各個物件定位，即使是相同類別也會分割成不同物件。 
+- 全景分割(Panoramic Segmentation):進一步結合了語義分割和實例分割，顧名思義就是要對各像素進行檢測與分割，同時也將背景考慮進去
 - 物件偵測(Object Detection)
   - [Object Detection | Papers With Code](https://paperswithcode.com/task/object-detection) 
   - [TensorFlow Hub Object Detection Colab](https://www.tensorflow.org/hub/tutorials/tf2_object_detection)
