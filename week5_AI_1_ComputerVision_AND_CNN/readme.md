@@ -20,17 +20,16 @@
     - [The Functional API](https://www.tensorflow.org/guide/keras/sequential_model)
     - [Making new Layers and Models via subclassing](https://www.tensorflow.org/guide/keras/custom_layers_and_models)
 - Load and preprocess images
+
 # CNN（Convolutional Neural Network）卷積神經網路
 - 【TensorFlow 官方教學課程】[卷積神經網路（Convolutional Neural Network, CNN）](https://www.tensorflow.org/tutorials/images/cnn)
   - 訓練一個簡單的卷積神經網路 (CNN) 來對 CIFAR 圖像進行分類。
   - 使用 Keras Sequential API，創建和訓練模型只需要幾行代碼。 
 - 圖像分類【TensorFlow 官方教學課程】[Image classification](https://www.tensorflow.org/tutorials/images/classification)
+- CNN Model [Convolutional Neural Networks | Papers With Code](https://paperswithcode.com/methods/category/convolutional-neural-networks)
 - 遷移學習(Transfer learning)
   - 【TensorFlow 官方教學課程】 [Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning) 
   - 【TensorFlow 官方教學課程】[Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
-
-# CNN Model
-- [Convolutional Neural Networks | Papers With Code](https://paperswithcode.com/methods/category/convolutional-neural-networks)
 
 # video classification 影像分類
 - 【TensorFlow 官方教學課程】[Video classification with a 3D convolutional neural network](https://www.tensorflow.org/tutorials/video/video_classification)
