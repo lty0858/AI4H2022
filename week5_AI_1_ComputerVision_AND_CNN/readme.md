@@ -3,8 +3,8 @@
 # [影像處理](https://zh.wikipedia.org/zh-tw/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86) [Digital image processing](https://en.wikipedia.org/wiki/Digital_image_processing)
 - [pillow](./pillow.md)
 - [qrcode](./qrcode.md)
-- skimage
-- opencv
+- [skimage](./skimage.md)
+- [opencv1](./opencv.md)
 
 # Tensorflow/Keras開發技術
 - Tensorflow
