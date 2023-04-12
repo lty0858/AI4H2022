@@ -16,14 +16,16 @@
 - Open Source Computer Vision Library ( 開源計算機視覺函式庫 )
 - OpenCV 是一個跨平台的電腦視覺函式庫( 模組) ，可應用於臉部辨識、手勢辨識、圖像分割...等影像辨識相關的領域
 
-# 範例學習 ==> 請參閱 [OpenCV 教學](https://steam.oxxostudio.tw/category/python/ai/opencv-index.html)
+### 在 Google Colab 中使用 OpenCV 
+- [Colab_OpenCV_Display](https://github.com/OmniXRI/Colab_OpenCV_Display.)
+- [在 Google Colab 中使用 OpenCV 进行图像处理简介](https://blog.csdn.net/qq_42722197/article/details/120170622)
+- [Opencv with Google Colab | Read, Display, and Write Images using OpenCV in google Colab](https://www.youtube.com/watch?v=FdFH2wcrf4Q)
+
+### 範例學習 ==> 請參閱 [OpenCV 教學](https://steam.oxxostudio.tw/category/python/ai/opencv-index.html)
 ```python
 import cv2                    # 匯入 OpenCV 函式庫
 img = cv2.imread('meme.jpg')  # 讀取圖片
 cv2.imshow('oxxostudio',img)        # 賦予開啟的視窗名稱，開啟圖片
 cv2.waitKey(0)                # 設定 0 表示不要主動關閉視窗
 ```
-### 在 Google Colab 中使用 OpenCV 
-- [Colab_OpenCV_Display](https://github.com/OmniXRI/Colab_OpenCV_Display.)
-- [在 Google Colab 中使用 OpenCV 进行图像处理简介](https://blog.csdn.net/qq_42722197/article/details/120170622)
-- [Opencv with Google Colab | Read, Display, and Write Images using OpenCV in google Colab](https://www.youtube.com/watch?v=FdFH2wcrf4Q)
+
