@@ -7,11 +7,24 @@
 - opencv
 
 # Tensorflow/Keras開發技術
+- Tensorflow
+  - [TensorFlow basics](https://www.tensorflow.org/guide/basics) 
+- Keras開發技術
+  - [tf.keras](https://www.tensorflow.org/guide/keras?hl=zh-tw) 是 TensorFlow 的高階 API，用於建構及訓練深度學習模型。這個 API 可用於快速原型設計、尖端研究及生產環境
+  - 具備三大優點：
+    - 容易使用:Keras 的介面經過特別設計，適合用於常見用途，既簡單又具有一致性。此外，Keras 還能針對錯誤，為使用者提供清楚實用的意見回饋。
+    - 模組化且可組合:Keras 模型是由可組合的構成要素連接而成，幾乎沒有框架限制。
+    - 易於擴充:撰寫自訂的構成要素，來表達對研究的新想法。建立新的層、指標、損失函式，並開發最先進的模型。
+  - 開發模型
+    - [The Sequential model](https://www.tensorflow.org/guide/keras/sequential_model)
+    - [The Functional API](https://www.tensorflow.org/guide/keras/sequential_model)
+    - [Making new Layers and Models via subclassing](https://www.tensorflow.org/guide/keras/custom_layers_and_models)
+- Load and preprocess images
 # CNN（Convolutional Neural Network）卷積神經網路
 - 【TensorFlow 官方教學課程】[卷積神經網路（Convolutional Neural Network, CNN）](https://www.tensorflow.org/tutorials/images/cnn)
   - 訓練一個簡單的卷積神經網路 (CNN) 來對 CIFAR 圖像進行分類。
   - 使用 Keras Sequential API，創建和訓練模型只需要幾行代碼。 
-- 【TensorFlow 官方教學課程】[Image classification](https://www.tensorflow.org/tutorials/images/classification)
+- 圖像分類【TensorFlow 官方教學課程】[Image classification](https://www.tensorflow.org/tutorials/images/classification)
 - 遷移學習(Transfer learning)
   - 【TensorFlow 官方教學課程】 [Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning) 
   - 【TensorFlow 官方教學課程】[Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
@@ -19,6 +32,6 @@
 # CNN Model
 - [Convolutional Neural Networks | Papers With Code](https://paperswithcode.com/methods/category/convolutional-neural-networks)
 
-# video classification 
-- [Video classification with a 3D convolutional neural network](https://www.tensorflow.org/tutorials/video/video_classification)
-- [Transfer learning for video classification with MoViNet](https://www.tensorflow.org/tutorials/video/transfer_learning_with_movinet)
+# video classification 影像分類
+- 【TensorFlow 官方教學課程】[Video classification with a 3D convolutional neural network](https://www.tensorflow.org/tutorials/video/video_classification)
+- 【TensorFlow 官方教學課程】[Transfer learning for video classification with MoViNet](https://www.tensorflow.org/tutorials/video/transfer_learning_with_movinet)
