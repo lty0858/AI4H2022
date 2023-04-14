@@ -1,5 +1,7 @@
 # [人工智慧](https://zh.wikipedia.org/zh-tw/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD)  [Artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)
+- 參看簡報 AI_202304.pptx
 # [電腦視覺](https://zh.wikipedia.org/zh-tw/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89)  [Computer Vision](https://en.wikipedia.org/wiki/Computer_vision)
+- 參看簡報 ComputervisionandImageProcessing_202304.pptx
 # [影像處理](https://zh.wikipedia.org/zh-tw/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86)  [Digital image processing](https://en.wikipedia.org/wiki/Digital_image_processing)
 - [pillow](./Pillow.md)
 - [qrcode](./qrcode.md)
@@ -22,7 +24,7 @@
 - [Load and preprocess images](https://www.tensorflow.org/tutorials/load_data/images)
 
 # CNN（Convolutional Neural Network）卷積神經網路
-- CNN核心元件
+- CNN核心元件  - 參看簡報  CNN_202304.pptx
 - 【TensorFlow 官方教學課程】[卷積神經網路（Convolutional Neural Network, CNN）](https://www.tensorflow.org/tutorials/images/cnn)
   - 訓練一個簡單的卷積神經網路 (CNN) 來對 CIFAR 圖像進行分類。
   - 使用 Keras Sequential API，創建和訓練模型只需要幾行代碼。 
