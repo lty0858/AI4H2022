@@ -27,7 +27,7 @@
 
 
 # CNN（Convolutional Neural Network）卷積神經網路
-- CNN核心元件  - 參看簡報  CNN_202304.pptx
+- CNN核心元件  - 請參看簡報  CNN_202304.pptx
 - 【TensorFlow 官方教學課程】[卷積神經網路（Convolutional Neural Network, CNN）](https://www.tensorflow.org/tutorials/images/cnn)
   - 訓練一個簡單的卷積神經網路 (CNN) 來對 CIFAR 圖像進行分類。
   - 使用 Keras Sequential API，創建和訓練模型只需要幾行代碼。 
@@ -36,8 +36,25 @@
   - [Convolutional Neural Networks | Papers With Code](https://paperswithcode.com/methods/category/convolutional-neural-networks)
   -  ImageNet ILSVRC 挑戰賽(ImageNet Large Scale Visual Recognition Challenge (ILSVRC)) [ILSVRC](https://www.image-net.org/challenges/LSVRC/)
 - 遷移學習(Transfer learning)
+  - 遷移學習(Transfer learning) ==>請參看簡報 TransferLearning1_202304.pptx
   - 【TensorFlow 官方教學課程】[Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning) 
+    - 範例:使用遷移學習通過預訓練網路對貓和狗的圖像進行分類。==>請參看簡報  TransferlearningwithpretrainedConvNet.pptx 
+    - 預訓練模型是一個之前基於大型資料集（通常是大型圖像分類任務）訓練的已保存網路。您可以按原樣使用預訓練模型，也可以使用遷移學習針對給定任務自訂此模型。
+    - 用於圖像分類的遷移學習背後的理念是，如果一個模型是基於足夠大且通用的資料集訓練的，那麼該模型將有效地充當視覺世界的通用模型。隨後，您可以利用這些學習到的特徵映射，而不必通過基於大型資料集訓練大型模型而從頭開始。
+    - 此範例中，您將嘗試通過以下兩種方式來自訂預訓練模型：
+      - 1.特徵提取：使用先前網路學習的表示從新樣本中提取有意義的特徵。您只需在預訓練模型上添加一個將從頭開始訓練的新分類器，這樣便可重複利用先前針對資料集學習的特徵映射。
+        - 您無需（重新）訓練整個模型。基礎卷積網路已經包含通常用於圖片分類的特徵。但是，預訓練模型的最終分類部分特定於原始分類任務，隨後特定於訓練模型所使用的類集。
+      - 2.微調：解凍已凍結模型庫的一些頂層，並共同訓練新添加的分類器層和基礎模型的最後幾層。這樣，我們便能“微調”基礎模型中的高階特徵表示，以使其與特定任務更相關。
+    - 通用的機器學習工作流。
+      - 1.檢查並理解資料
+      - 2.構建輸入流水線，在本例中使用 Keras ImageDataGenerator
+      - 3.構成模型
+        - 載入預訓練的基礎模型（和預訓練權重）
+        - 將分類層堆疊在頂部
+      - 4.訓練模型
+      - 5.評估模型
   - 【TensorFlow 官方教學課程】[Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
+    - TensorFlow Hub is a repository of pre-trained TensorFlow models. 
 
 # 進階圖片處理主題
 - 資料載入與預先處理[Load and preprocess images](https://www.tensorflow.org/tutorials/load_data/images)
