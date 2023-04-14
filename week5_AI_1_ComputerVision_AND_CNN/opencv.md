@@ -14,8 +14,9 @@
 - [Building Computer Vision Applications Using Artificial Neural Networks](https://link.springer.com/book/10.1007/978-1-4842-5887-3) 
   - [計算機視覺應用構建：OpenCV 與 TensorFlow 實例](https://www.tenlong.com.tw/products/9787111708766?list_name=srh) 
   - [GITHUB](https://github.com/Apress/building-computer-vision-apps-artificial-neural-networks)
-- [Mastering Computer Vision with TensorFlow 2.x]
+- [Mastering Computer Vision with TensorFlow 2.x(2020)](https://www.packtpub.com/product/mastering-computer-vision-with-tensorflow-2x/9781838827069)
   - [TensorFlow 2.x 高級電腦視覺](https://www.tenlong.com.tw/products/9787302614586?list_name=srh) 
+  - [GITHUB](https://github.com/PacktPublishing/Mastering-Computer-Vision-with-TensorFlow-2.0)
 - [Hands-On Computer Vision with TensorFlow 2](https://www.packtpub.com/product/hands-on-computer-vision-with-tensorflow-2/9781788830645#_ga=2.10252533.1910983201.1681276500-2136099925.1681276500) 
 
 
