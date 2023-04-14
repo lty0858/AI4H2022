@@ -13,7 +13,12 @@
 
 # Tensorflow/Keras開發技術
 - Tensorflow
-  - [TensorFlow basics](https://www.tensorflow.org/guide/basics) 
+  - [官方網址](https://www.tensorflow.org/?hl=zh-tw) 
+  - [官方學習](https://www.tensorflow.org/learn?hl=zh-tw)
+  - [TensorFlow API](https://www.tensorflow.org/versions) 
+  - [TensorFlow Datasets：一組可立即使用的資料集(tfds)](https://www.tensorflow.org/datasets?hl=zh-tw)
+  - 範例學習:[TensorFlow basics](https://www.tensorflow.org/guide/basics) 
+  - [官方資源](https://www.tensorflow.org/resources/models-datasets?hl=zh-tw)
   - 請參看簡報Tensorflow_202304.pptx
 - Keras開發技術
   - [tf.keras](https://www.tensorflow.org/guide/keras?hl=zh-tw) 是 TensorFlow 的高階 API，用於建構及訓練深度學習模型。這個 API 可用於快速原型設計、尖端研究及生產環境
