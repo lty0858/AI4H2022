@@ -38,8 +38,8 @@
   - 【TensorFlow 官方教學課程】[Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
 
 # 進階圖片處理主題
-- [Load and preprocess images](https://www.tensorflow.org/tutorials/load_data/images)
-- 資料擴增
+- 資料載入與預先處理[Load and preprocess images](https://www.tensorflow.org/tutorials/load_data/images)
+- 資料擴增(Data augmentation):如何將少資料量變成多多益善的資料量
   - 【TensorFlow 官方教學課程】[Data augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation) 
 
 # Computer Vision 進階主題
