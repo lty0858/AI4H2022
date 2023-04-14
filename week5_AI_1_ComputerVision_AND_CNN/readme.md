@@ -11,6 +11,7 @@
 # Tensorflow/Keras開發技術
 - Tensorflow
   - [TensorFlow basics](https://www.tensorflow.org/guide/basics) 
+  - 請參看簡報Tensorflow_202304.pptx
 - Keras開發技術
   - [tf.keras](https://www.tensorflow.org/guide/keras?hl=zh-tw) 是 TensorFlow 的高階 API，用於建構及訓練深度學習模型。這個 API 可用於快速原型設計、尖端研究及生產環境
   - 具備三大優點：
@@ -21,7 +22,8 @@
     - [The Sequential model](https://www.tensorflow.org/guide/keras/sequential_model)
     - [The Functional API](https://www.tensorflow.org/guide/keras/sequential_model)
     - [Making new Layers and Models via subclassing](https://www.tensorflow.org/guide/keras/custom_layers_and_models)
-  -　範例: MLP Model ==> 使用keras進行回歸分析(regression) 請參看簡報
+  - 請參看簡報 Keras_202304.pptx
+  - 範例: MLP Model ==> 使用keras進行回歸分析(regression) 請參看簡報 Keras_MLP_regression_0414.pptx
 
 
 # CNN（Convolutional Neural Network）卷積神經網路
