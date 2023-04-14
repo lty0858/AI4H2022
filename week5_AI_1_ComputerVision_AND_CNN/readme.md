@@ -2,6 +2,9 @@
 - 參看簡報 AI_202304.pptx
 # [電腦視覺](https://zh.wikipedia.org/zh-tw/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89)  [Computer Vision](https://en.wikipedia.org/wiki/Computer_vision)
 - 參看簡報 ComputervisionandImageProcessing_202304.pptx
+- [Computer Vision | Papers With Code](https://paperswithcode.com/area/computer-vision)
+- 經典教材:Computer Vision: Algorithms and Applications  Richard Szeliski
+  - 簡體中譯本 [電腦視覺－演算法與應用 ](https://www.tenlong.com.tw/products/9787302269151?list_name=srh)
 # [影像處理](https://zh.wikipedia.org/zh-tw/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86)  [Digital image processing](https://en.wikipedia.org/wiki/Digital_image_processing)
 - [pillow](./Pillow.md)
 - [qrcode](./qrcode.md)
