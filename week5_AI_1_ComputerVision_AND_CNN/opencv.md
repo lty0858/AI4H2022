@@ -1,20 +1,21 @@
 
 # 官方
+- Open Source Computer Vision Library ( 開源計算機視覺函式庫 )
+- OpenCV 是一個跨平台的電腦視覺函式庫( 模組) ，可應用於臉部辨識、手勢辨識、圖像分割...等影像辨識相關的領域
 - [官方網址](https://opencv.org/)
 - [OpenCV modules](https://docs.opencv.org/4.x/)
 - [OpenCV Tutorials](https://docs.opencv.org/4.x/d9/df8/tutorial_root.html)
 
-# 參考書籍
+# 參考書籍 
 - [opencv@tenlong](https://www.tenlong.com.tw/search?availability=buyable&keyword=opencv&langs%5B%5D=all&sort=publication_date)
 - [Python + OpenCV — 機器學習 + 深度學習 40大電腦視覺案例入門到實戰  李立宗 著  深智數位](https://www.tenlong.com.tw/products/9786267273142?list_name=srh)
+- [OpenCV 影像創意邁向 AI 視覺王者歸來 (全彩印刷) 洪錦魁](https://www.tenlong.com.tw/products/9789860776782?list_name=srh)
+- [AIOT 與 OpenCV 實戰應用：Python、樹莓派、物聯網與機器視覺, 3/e  朱克剛](https://www.tenlong.com.tw/products/9786263240193?list_name=srh)
 - [Building Computer Vision Applications Using Artificial Neural Networks](https://link.springer.com/book/10.1007/978-1-4842-5887-3) 
   - [計算機視覺應用構建：OpenCV 與 TensorFlow 實例](https://www.tenlong.com.tw/products/9787111708766?list_name=srh) 
   - [GITHUB](https://github.com/Apress/building-computer-vision-apps-artificial-neural-networks)
 - [Hands-On Computer Vision with TensorFlow 2](https://www.packtpub.com/product/hands-on-computer-vision-with-tensorflow-2/9781788830645#_ga=2.10252533.1910983201.1681276500-2136099925.1681276500) 
 
-# 
-- Open Source Computer Vision Library ( 開源計算機視覺函式庫 )
-- OpenCV 是一個跨平台的電腦視覺函式庫( 模組) ，可應用於臉部辨識、手勢辨識、圖像分割...等影像辨識相關的領域
 
 ### 在 Google Colab 中使用 OpenCV 
 - [Colab_OpenCV_Display](https://github.com/OmniXRI/Colab_OpenCV_Display.)
