@@ -21,7 +21,8 @@
     - [The Sequential model](https://www.tensorflow.org/guide/keras/sequential_model)
     - [The Functional API](https://www.tensorflow.org/guide/keras/sequential_model)
     - [Making new Layers and Models via subclassing](https://www.tensorflow.org/guide/keras/custom_layers_and_models)
-- [Load and preprocess images](https://www.tensorflow.org/tutorials/load_data/images)
+  -　範例: MLP Model ==> 使用keras進行回歸分析(regression) 請參看簡報
+
 
 # CNN（Convolutional Neural Network）卷積神經網路
 - CNN核心元件  - 參看簡報  CNN_202304.pptx
@@ -36,10 +37,14 @@
   - 【TensorFlow 官方教學課程】[Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning) 
   - 【TensorFlow 官方教學課程】[Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
 
-# 進階主題
-![OD.jpg](./OD.jpg)
+# 進階圖片處理主題
+- [Load and preprocess images](https://www.tensorflow.org/tutorials/load_data/images)
 - 資料擴增
   - 【TensorFlow 官方教學課程】[Data augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation) 
+
+# Computer Vision 進階主題
+![OD.jpg](./OD.jpg)
+
 - [圖像分割](https://zh.wikipedia.org/zh-tw/%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2)([Image segmentation](https://en.wikipedia.org/wiki/Image_segmentation))
   - 【TensorFlow 官方教學課程】[Image segmentation](https://www.tensorflow.org/tutorials/images/segmentation)
 - 語義分割(Semantic Segmentation):將圖像中的所有像素點進行分類
