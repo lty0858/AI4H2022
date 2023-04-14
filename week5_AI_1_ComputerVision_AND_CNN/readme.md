@@ -22,11 +22,13 @@
 - [Load and preprocess images](https://www.tensorflow.org/tutorials/load_data/images)
 
 # CNN（Convolutional Neural Network）卷積神經網路
+- CNN核心元件
 - 【TensorFlow 官方教學課程】[卷積神經網路（Convolutional Neural Network, CNN）](https://www.tensorflow.org/tutorials/images/cnn)
   - 訓練一個簡單的卷積神經網路 (CNN) 來對 CIFAR 圖像進行分類。
   - 使用 Keras Sequential API，創建和訓練模型只需要幾行代碼。 
 - 圖像分類【TensorFlow 官方教學課程】[Image classification](https://www.tensorflow.org/tutorials/images/classification)
-- CNN Model [Convolutional Neural Networks | Papers With Code](https://paperswithcode.com/methods/category/convolutional-neural-networks)
+- [CNN Model](./CNNModels.md) 
+  - [Convolutional Neural Networks | Papers With Code](https://paperswithcode.com/methods/category/convolutional-neural-networks)
   -  ImageNet ILSVRC 挑戰賽(ImageNet Large Scale Visual Recognition Challenge (ILSVRC)) [ILSVRC](https://www.image-net.org/challenges/LSVRC/)
 - 遷移學習(Transfer learning)
   - 【TensorFlow 官方教學課程】[Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning) 
