@@ -27,11 +27,6 @@
     - [Making new Layers and Models via subclassing](https://www.tensorflow.org/guide/keras/custom_layers_and_models)
   - 請參看簡報 Keras_202304.pptx
   - 範例: MLP Model ==> 使用keras進行回歸分析(regression) 請參看簡報 Keras_MLP_regression_0414.pptx
-  - 推薦書籍 
-    - [Keras 大神歸位：深度學習全面進化！用 Python 實作CNN、RNN、GRU、LSTM、GAN、VAE、Transformer François Chollet](https://www.tenlong.com.tw/products/9789863127017?list_name=srh)
-    - [精通機器學習｜使用 Scikit-Learn , Keras 與 TensorFlow, 2/e (Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2/e) Aurélien Géron 著 賴屹民 譯](https://www.tenlong.com.tw/products/9789865024345?list_name=srh)
-    - [tf.keras 技術者們必讀！深度學習攻略手冊  施威銘研究室 著](https://www.tenlong.com.tw/products/9789863126034?list_name=srh)
-
 
 # CNN（Convolutional Neural Network）卷積神經網路
 - CNN核心元件  - 請參看簡報  CNN_202304.pptx
@@ -63,6 +58,14 @@
   - 【TensorFlow 官方教學課程】[Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
     - TensorFlow Hub is a repository of pre-trained TensorFlow models. 
 
+# 推薦書籍
+- [Keras 大神歸位：深度學習全面進化！用 Python 實作CNN、RNN、GRU、LSTM、GAN、VAE、Transformer François Chollet](https://www.tenlong.com.tw/products/9789863127017?list_name=srh)
+- [精通機器學習｜使用 Scikit-Learn , Keras 與 TensorFlow, 2/e (Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2/e) Aurélien Géron 著 賴屹民 譯](https://www.tenlong.com.tw/products/9789865024345?list_name=srh)
+- [tf.keras 技術者們必讀！深度學習攻略手冊  施威銘研究室 著](https://www.tenlong.com.tw/products/9789863126034?list_name=srh)
+- [Mastering Computer Vision with TensorFlow 2.x(2020)](https://www.packtpub.com/product/mastering-computer-vision-with-tensorflow-2x/9781838827069)
+  - [TensorFlow 2.x 高級電腦視覺](https://www.tenlong.com.tw/products/9787302614586?list_name=srh) 
+  - [GITHUB](https://github.com/PacktPublishing/Mastering-Computer-Vision-with-TensorFlow-2.0)
+- [Hands-On Computer Vision with TensorFlow 2](https://www.packtpub.com/product/hands-on-computer-vision-with-tensorflow-2/9781788830645#_ga=2.10252533.1910983201.1681276500-2136099925.1681276500) 
 # 進階圖片處理主題
 - 資料載入與預先處理[Load and preprocess images](https://www.tensorflow.org/tutorials/load_data/images)
 - 資料擴增(Data augmentation):如何將少資料量變成多多益善的資料量
