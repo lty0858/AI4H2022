@@ -1,8 +1,12 @@
 # week7_AI_3_GenerativeAI
+- Generative AI
+  - Image|Text|Music|Movie|Anything(X) generation 
+- AutoEncoders(AE) and Variational autoencoder
+- GAN(Generative Adversarial Networks)生成對抗網路
 
 # Generative AI
 - [Generating Sound with Neural Network](https://www.youtube.com/playlist?list=PL-wATfeyAMNpEyENTc-tVH5tfLGKtSWPp) [GITHUB](https://github.com/musikalkemist/generating-sound-with-neural-networks)
-- [ChatGPT is not all you need. A State of the Art Review of large Generative AI models(2023)](https://arxiv.org/abs/2301.04655)
+- [ChatGPT is not all you need. A State of the Art Review of large Generative AI models(202301)](https://arxiv.org/abs/2301.04655)
   - texts to images: DALLE-2 model
   - text to 3D images: Dreamfusion model
   - images to text: Flamingo model
