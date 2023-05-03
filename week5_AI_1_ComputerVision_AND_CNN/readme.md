@@ -30,7 +30,7 @@
     - 易於擴充:撰寫自訂的構成要素，來表達對研究的新想法。建立新的層、指標、損失函式，並開發最先進的模型。
   - 開發模型
     - [The Sequential model](https://www.tensorflow.org/guide/keras/sequential_model)
-    - [The Functional API](https://www.tensorflow.org/guide/keras/sequential_model)
+    - [The Functional API](https://www.tensorflow.org/guide/keras/functional)
     - [Making new Layers and Models via subclassing](https://www.tensorflow.org/guide/keras/custom_layers_and_models)
   - 請參看簡報 Keras_202304.pptx
   - 範例: MLP Model ==> 使用keras進行回歸分析(regression) 請參看簡報 Keras_MLP_regression_0414.pptx
