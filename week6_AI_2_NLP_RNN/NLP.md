@@ -1,0 +1,31 @@
+# 自然語言處理 NLP  [AWS的介紹](https://aws.amazon.com/tw/what-is/nlp/)
+- 自然語言處理 (NLP) 是一種機器學習技術，讓電腦能夠解譯、操縱及理解人類語言。
+- 如今，組織擁有來自各種通訊管道的大量語音和文字資料，例如電子郵件、簡訊、社交媒體新聞摘要、影片、音訊等。
+- 他們使用 NLP 軟體來自動處理此資料，分析訊息中的意圖或情緒，並即時回應人類通訊。
+
+## [Natural Language Processing | Papers With Code](https://paperswithcode.com/area/natural-language-processing)
+- 文本分類 [text classification](https://paperswithcode.com/area/natural-language-processing/text-classification)
+  - 892 篇帶代碼的論文 • 146 個基準 • 122 個數據集
+  - 文本分類是為句子或文檔分配適當類別的任務。
+  - 類別取決於所選的數據集，範圍可以是主題。
+  - 文本分類問題包括情感分類、新聞分類、引用意圖分類等。
+  - 用於評估文本分類能力的基準數據集包括 GLUE、AGNews 等。
+  - XLNet 和 RoBERTa 等深度學習技術在文本分類問題上取得了一些最大的性能提升。
+  - 有趣的子主題
+- 文本生成 [Text Generation](https://paperswithcode.com/area/natural-language-processing/text-generation)
+  - Text Generation is the task of generating text with the goal of appearing indistinguishable to human-written text. 
+  - 早期做法==> Markov processes or deep generative models like LSTMs
+  - 近期做法==> BART, GPT and other GAN-based approaches. 
+  - 評估指標 Text generation systems are evaluated either through human ratings or automatic evaluation metrics like METEOR, ROUGE, and BLEU.
+  - review
+    - [Modern Methods for Text Generation(200904)](https://arxiv.org/abs/2009.04968) 
+    - 👍[The survey: Text generation models in deep learning(2022)](https://www.sciencedirect.com/science/article/pii/S1319157820303360)
+  - 有趣的子主題
+    - [Paper generation](https://paperswithcode.com/task/paper-generation)
+    - [News Generation](https://paperswithcode.com/task/news-generation)
+    - [Code Documentation Generation](https://paperswithcode.com/task/code-documentation-generation)
+    - [Text Style Transfer](https://paperswithcode.com/task/text-style-transfoer)
+    - [Conditional Text Generation](https://paperswithcode.com/task/conditional-text-generation) 
+      - The task of generating text according to some pre-specified conditioning (e.g. topic or sentiment or constraint) 
+    - [Spelling Correction]()
+- machine translation  
