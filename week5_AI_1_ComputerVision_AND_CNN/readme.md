@@ -44,9 +44,16 @@
 - [CNN Model](./CNNModels.md) 
   - [Convolutional Neural Networks | Papers With Code](https://paperswithcode.com/methods/category/convolutional-neural-networks)
   -  ImageNet ILSVRC 挑戰賽(ImageNet Large Scale Visual Recognition Challenge (ILSVRC)) [ILSVRC](https://www.image-net.org/challenges/LSVRC/)
-- 遷移學習(Transfer learning)
-  - 遷移學習(Transfer learning) ==>請參看簡報 TransferLearning1_202304.pptx
-  - 【TensorFlow 官方教學課程】[Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning) 
+# 遷移學習(Transfer learning)
+- 遷移學習(Transfer learning) ==>請參看簡報 TransferLearning1_202304.pptx
+- Transfer learning 1.使用keras內建的模型
+  -【TensorFlow 官方教學課程】[Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning) 
+- Transfer learning 2.使用Tensorflow HUB的模型
+  - [Tensorflow HUB](https://tfhub.dev/)
+  -【TensorFlow 官方教學課程】[Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
+  - TensorFlow Hub is a repository of pre-trained TensorFlow models. 
+
+## 【TensorFlow 官方教學課程】[Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning) 
     - 範例:使用遷移學習通過預訓練網路對貓和狗的圖像進行分類。==>請參看簡報  TransferlearningwithpretrainedConvNet.pptx 
     - 預訓練模型是一個之前基於大型資料集（通常是大型圖像分類任務）訓練的已保存網路。您可以按原樣使用預訓練模型，也可以使用遷移學習針對給定任務自訂此模型。
     - 用於圖像分類的遷移學習背後的理念是，如果一個模型是基於足夠大且通用的資料集訓練的，那麼該模型將有效地充當視覺世界的通用模型。隨後，您可以利用這些學習到的特徵映射，而不必通過基於大型資料集訓練大型模型而從頭開始。
@@ -62,7 +69,7 @@
         - 將分類層堆疊在頂部
       - 4.訓練模型
       - 5.評估模型
-  - 【TensorFlow 官方教學課程】[Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
+## 【TensorFlow 官方教學課程】[Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
     - TensorFlow Hub is a repository of pre-trained TensorFlow models. 
 
 # 推薦書籍
