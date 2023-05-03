@@ -18,6 +18,7 @@
     - 【TensorFlow 官方教學課程】 [Classify text with BERT](https://www.tensorflow.org/text/tutorials/classify_text_with_bert)
 - Time Series(時間序列分析)
   - [Modern Time Series Forecasting with Python(2022)](https://www.packtpub.com/product/modern-time-series-forecasting-with-python/9781803246802) [GITHUB](https://github.com/PacktPublishing/Modern-Time-Series-Forecasting-with-Python)
+
 ## Language Model
 - 靜態詞向量預訓練模型
   - 神經網路語言模型
@@ -33,7 +34,8 @@
   - [Large-scale Multi-Modal Pre-trained Models: A Comprehensive Survey(2023)](https://arxiv.org/abs/2302.10035) [GITHUB](https://github.com/wangxiao5791509/MultiModal_BigModels_Survey)
   - [On the Opportunities and Risks of Foundation Models(2021)](https://arxiv.org/abs/2108.07258)
   - [A Comprehensive Survey on Pretrained Foundation Models: A History from BERT to ChatGPT(2023)](https://arxiv.org/abs/2302.09419)
-  - [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond(202304)](https://arxiv.org/abs/2304.13712) [有用的GITHUB網址](https://github.com/Mooler0410/LLMsPracticalGuide)
+  - [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond(202304)](https://arxiv.org/abs/2304.13712) 
+    - [有用的GITHUB網址](https://github.com/Mooler0410/LLMsPracticalGuide)  [有用的PPT](https://github.com/Mooler0410/LLMsPracticalGuide/blob/main/source/figure_gif.pptx)
 - BOOKS [全中文自然語言處理：Pre-Trained Model 方法最新實戰|車萬翔、郭江、崔一鳴 著(2022)](https://www.tenlong.com.tw/products/9789860776942?list_name=srh)
 - Transformer 2017
   - 經典論文[Attention Is All You Need](https://arxiv.org/abs/1706.03762)
