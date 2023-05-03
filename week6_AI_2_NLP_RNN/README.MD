@@ -3,6 +3,7 @@
 # NLP(Natural language processing) 自然語言處理 
 - [史丹佛大學 課程CS224n: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
 - NLTK 工具集 |LTP 工具集
+- 文字向量化
 
 ## RNN
 - RNN Model
