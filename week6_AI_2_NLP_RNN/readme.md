@@ -41,6 +41,8 @@
     - [tf.keras.layers.LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM)
     - [tf.keras.layers.GRU](https://www.tensorflow.org/api_docs/python/tf/keras/layers/GRU)
     - 雙向 [tf.keras.layers.Bidirectional](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Bidirectional)
+
+![RNN.png](./RNN.png)
 - Text classification(文章分類)
   - 資料集
     IMDB large movie review dataset
