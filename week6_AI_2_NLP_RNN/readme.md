@@ -1,7 +1,10 @@
 # NLP(Natural language processing) 自然語言處理 
 - NLP(Natural language processing) 自然語言處理
 - NLTK 工具集 |LTP 工具集
-- 文字向量化
+- 文字向量化 vector representations of words
+  - 將文字轉換為向量(文字向量化) 是一種自然語言處理(NLP) 程序。
+  -  此程序會使用語言模型將文字對應至向量空間。 向量空間會以實數向量表示每個文字 
+  -  
 
 ## RNN
 - RNN Model
@@ -21,11 +24,22 @@
 ## Language Model
 - 靜態詞向量預訓練模型
   - 神經網路語言模型
-  - Word2vec 詞向量
-    - 經典論文[Show, Attend and Tell: Neural Image Caption Generation with Visual Attention(201502)](https://arxiv.org/abs/1502.03044)
+  - Word2vec 詞向量(GOOGLE)
+    - 經典論文
+    - Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg S Corrado, and Jeff Dean.
+      - Distributed representations of words and phrases and their compositionality.
+      - In Advances in Neural Information Processing Systems (NIPS), pages 3111–3119, 2013
+    - [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention(201502)](https://arxiv.org/abs/1502.03044)
       - Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard Zemel, Yoshua Bengio
     - 【TensorFlow 官方教學課程】[Word embeddings](https://www.tensorflow.org/text/guide/word_embeddings)
-  - GloVe 詞向量word2vec
+  - GloVe 詞向量(史丹佛大學)  
+    - 經典論文
+    - [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/) 
+  - FastText (臉書)
+    - Facebook AI Research Lab (FAIR) 所開發的『詞嵌入』以及『文本分類』，支援294 種語言，並且使用類神經網路訓練詞嵌入模型 
+    - 經典論文[Enriching Word Vectors with Subword Information(2016)](https://arxiv.org/abs/1607.04606) 
+    - [FastText modelgensim](https://radimrehurek.com/gensim/models/fasttext.html)
+    - [fastText原理及实践](https://zhuanlan.zhihu.com/p/32965521)
 
 - sequence-to-sequence (seq2seq) model
   - [教電腦寫作：AI球評——Seq2seq模型應用筆記(PyTorch + Python3)](https://gau820827.medium.com/%E6%95%99%E9%9B%BB%E8%85%A6%E5%AF%AB%E4%BD%9C-ai%E7%90%83%E8%A9%95-seq2seq%E6%A8%A1%E5%9E%8B%E6%87%89%E7%94%A8%E7%AD%86%E8%A8%98-pytorch-python3-31e853573dd0) 
