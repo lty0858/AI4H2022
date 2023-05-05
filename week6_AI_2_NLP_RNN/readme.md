@@ -26,8 +26,10 @@
 
 ![BOW.jpg](./BOW.jpg)
 
-![word.png](./word.png)
+
 圖片來源：[A Bag of Words: Levels of Language](https://sep.com/blog/a-bag-of-words-levels-of-language/)
+
+![word.png](./word.png)
 
 ## RNN Model
 - RNN Model:  RNN | LSTM | GRU| bidirectional LSTM
