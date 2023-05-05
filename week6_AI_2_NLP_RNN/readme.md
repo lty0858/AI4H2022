@@ -17,7 +17,10 @@
       - sklearn.preprocessing.OneHotEncoder
     - 詞袋模型（Bag-of-Words Model, BoW）
       - 詞袋模型是一個基於單詞出現頻率來表示文字的方法，它並不考慮單詞的排列順序、或甚至是文法結構。
+      - The sklearn.feature_extraction.text submodule gathers utilities to build feature vectors from text documents
+      - CountVectorizer會計算單字出現在文件的次數
       - TF-IDF(Term Frequency - Inverted Document Frequency)
+      - [簡單使用scikit-learn裡的TFIDF看看](https://ithelp.ithome.com.tw/articles/10228481)
     - 詞嵌入(Word embedding)
     - PreTrain model
 
