@@ -1,3 +1,9 @@
+# Agenda
+- NLP(Natural language processing) 自然語言處理 
+- RNN Model and text classification
+- Language Model
+- Pretrained Model == > Large Language Models (LLMs)
+
 # NLP(Natural language processing) 自然語言處理 
 - NLP(Natural language processing) 自然語言處理 [AWS的介紹](https://aws.amazon.com/tw/what-is/nlp/)
   - 自然語言處理 (NLP) 是一種機器學習技術，讓電腦能夠解譯、操縱及理解人類語言。
@@ -19,7 +25,7 @@
 
 圖片來源：[A Bag of Words: Levels of Language](https://sep.com/blog/a-bag-of-words-levels-of-language/)
 
-## RNN
+## RNN Model
 - RNN Model
   - RNN
   - LSTM
