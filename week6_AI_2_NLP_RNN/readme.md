@@ -22,7 +22,8 @@
 - 靜態詞向量預訓練模型
   - 神經網路語言模型
   - Word2vec 詞向量
-    - 經典論文[Show, Attend and Tell: Neural Image Caption Generation with Visual Attention|Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard Zemel, Yoshua Bengio](https://arxiv.org/abs/1502.03044)
+    - 經典論文[Show, Attend and Tell: Neural Image Caption Generation with Visual Attention(201502)](https://arxiv.org/abs/1502.03044)
+      - Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard Zemel, Yoshua Bengio
     - 【TensorFlow 官方教學課程】[Word embeddings](https://www.tensorflow.org/text/guide/word_embeddings)
   - GloVe 詞向量word2vec
 
