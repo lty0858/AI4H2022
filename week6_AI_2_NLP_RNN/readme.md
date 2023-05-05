@@ -34,7 +34,10 @@
     - 【TensorFlow 官方教學課程】[Word embeddings](https://www.tensorflow.org/text/guide/word_embeddings)
   - GloVe 詞向量(史丹佛大學)  
     - 經典論文
-    - [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/) 
+      - Jeffrey Pennington, Richard Socher, and Christopher D Manning. 
+      - Glove:Global vectors for word representation. 
+      - In Conference on Empirical Methods on Natural Language Processing (EMNLP), pages 1532–1543, 2014
+    - 官方網址[GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/) 
   - FastText (臉書)
     - Facebook AI Research Lab (FAIR) 所開發的『詞嵌入』以及『文本分類』，支援294 種語言，並且使用類神經網路訓練詞嵌入模型 
     - 經典論文[Enriching Word Vectors with Subword Information(2016)](https://arxiv.org/abs/1607.04606) 
@@ -45,7 +48,6 @@
   - [教電腦寫作：AI球評——Seq2seq模型應用筆記(PyTorch + Python3)](https://gau820827.medium.com/%E6%95%99%E9%9B%BB%E8%85%A6%E5%AF%AB%E4%BD%9C-ai%E7%90%83%E8%A9%95-seq2seq%E6%A8%A1%E5%9E%8B%E6%87%89%E7%94%A8%E7%AD%86%E8%A8%98-pytorch-python3-31e853573dd0) 
 
 ## Pretrained Model == > Large Language Models (LLMs)
-
 - Transformer 2017
   - 經典論文[Attention Is All You Need](https://arxiv.org/abs/1706.03762)
   - BOOKS [Transformers for Natural Language Processing - Second Edition(2022)](https://www.packtpub.com/product/transformers-for-natural-language-processing-second-edition/9781803247335) [GITHUB](https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition)
