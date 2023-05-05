@@ -3,6 +3,10 @@
 - [Text Classification on IMDb@State Of the Art](https://paperswithcode.com/sota/text-classification-on-imdb)
 
 # 範例資料集IMDB dataset
+- 網路電影資料庫（Internet Movie Database）的 IMDB 資料集（IMDB dataset）
+- 包含 50,000 條影評文本。
+- 從該資料集切割出的25,000條評論用作訓練，另外 25,000 條用作測試。
+- 訓練集與測試集是平衡的（balanced），意味著它們包含相等數量的積極和消極評論。
 - IMDB dataset that contains the text of 50,000 movie reviews from the Internet Movie Database. 
 - These are split into 25,000 reviews for training and 25,000 reviews for testing. 
 - The training and testing sets are balanced, meaning they contain an equal number of positive and negative reviews.
@@ -11,7 +15,7 @@
   - [IMDB Review - Deep Model ~ 94.89% Accuracy](https://www.kaggle.com/code/nilanml/imdb-review-deep-model-94-89-accuracy/notebook)
   - [IMDB Movie Reviews word2vec,tfidf,bow](https://www.kaggle.com/code/jagarapusiva/imdb-movie-reviews-word2vec-tfidf-bow)
 
-# 範例程式
+# 範例程式  電影評論文本分類
 - [Basic text classification](https://www.tensorflow.org/tutorials/keras/text_classification)
   - text classification starting from plain text files stored on disk. 
   - will train a binary classifier to perform sentiment analysis on an `IMDB dataset`. 
