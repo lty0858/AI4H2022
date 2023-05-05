@@ -1,0 +1,60 @@
+# 
+- Contextual?
+- Architectures
+
+# Contextual?
+- Non-Contextual CBOW/Skip-Gram [11],GloVe [12]
+- Contextual ELMo [14], GPT [15], BERT [16]
+
+# Architectures
+LSTM LM-LSTM [35], Shared LSTM[5], ELMo [14], CoVe [13]
+Transformer Enc. BERT [16], SpanBERT [47], XLNet [49], RoBERTa [43]
+Transformer Dec. GPT [15], GPT-2 [58],GPT-3 [59]
+Transformer MASS [41], BART [50],T5 [42], XNLG [60], mBART [61]
+Pre-Training
+Tasks
+Supervised MT CoVe [13]
+Unsupervised/
+Self-Supervised
+LM ELMo [14], GPT [15], GPT-2 [58], UniLM [44]
+MLM
+BERT [16], SpanBERT [47], RoBERTa [43], XLM-R [62]
+TLM XLM [46]
+Seq2Seq MLM MASS [41], T5 [42]
+PLM XLNet [49]
+DAE BART [50]
+CTL
+RTD CBOW-NS [11], ELECTRA [56]
+NSP BERT [16], UniLM [44]
+SOP ALBERT [63], StructBERT [48]
+Tuning
+Strategies
+Fine-Tuning Two-stage FT [64–66],Multi-task FT [67], Extra Adaptor [68, 69]
+Prompt-Tuning
+Discrete PET [70],AutoPrompt [71],LM-BFF [72]
+Continuous WARP [73],Prefix-Tuning [74],P-Tuning [75]
+Extensions
+Knowledge-Enriched
+ERNIE(THU) [76], KnowBERT [77], K-BERT [78], SentiLR [79], KEPLER [80]
+WKLM [57], CoLAKE [81]
+Multilingual
+XLU mBERT [16], Unicoder [82], XLM [46], XLM-R [62], MultiFit [83]
+XLG MASS [41], mBART [61], XNLG [60]
+Language-Specific
+ERNIE(Baidu) [84], BERT-wwm-Chinese [85], NEZHA [86], ZEN [87], BERTje [88]
+CamemBERT [89], FlauBERT [90], RobBERT [91]
+Multi-Modal
+Image ViLBERT [92], LXMERT [93], VisualBERT [94], B2T2 [95],VL-BERT [96]
+Video VideoBERT [97], CBT [98]
+Speech SpeechBERT [99]
+Domain-Specific SentiLR [79], BioBERT [100], SciBERT [101], PatentBERT [102]
+Model Compression
+Model Pruning CompressingBERT [103]
+Quantization Q-BERT [104], Q8BERT [105]
+Parameter Sharing ALBERT [63]
+Distillation DistilBERT [106], TinyBERT [107], MiniLM [108]
+Module Replacing BERT-of-Theseus [109]
+Early Exit
+DeeBERT [110], RightTool [111], FastBERT [112], PABEE [113], Liao et al. [114], Sun et al. [115]
+SentEE/TokEE [116]
+Figure 3: Taxonomy of PTMs with Representative Examples
