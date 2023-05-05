@@ -29,11 +29,15 @@
 圖片來源：[A Bag of Words: Levels of Language](https://sep.com/blog/a-bag-of-words-levels-of-language/)
 
 ## RNN Model
-- RNN Model
-  - RNN
-  - LSTM
-  - bidirectional LSTM
-  - GRU
+- RNN Model:  RNN | LSTM | GRU| bidirectional LSTM
+- TENSORFLOW/KERAS:RNN
+  - [tf.keras.layers.Embedding](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Embedding)
+  - [tf.keras.layers.TextVectorization ](https://www.tensorflow.org/api_docs/python/tf/keras/layers/TextVectorization)
+  - 最常見的三大類型
+    - [tf.keras.layers.SimpleRNN](https://www.tensorflow.org/api_docs/python/tf/keras/layers/SimpleRNN)
+    - [tf.keras.layers.LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM)
+    - [tf.keras.layers.GRU](https://www.tensorflow.org/api_docs/python/tf/keras/layers/GRU)
+    - 雙向 [tf.keras.layers.Bidirectional](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Bidirectional)
 - Text classification(文章分類)
   - 資料集
     IMDB large movie review dataset
