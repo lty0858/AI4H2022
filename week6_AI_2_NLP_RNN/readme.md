@@ -49,6 +49,7 @@
     - [FastText modelgensim](https://radimrehurek.com/gensim/models/fasttext.html)
     - [fastText原理及实践](https://zhuanlan.zhihu.com/p/32965521)
 
+![s2s.JPG](./s2s.JPG)
 - sequence-to-sequence (seq2seq) model
   - Seq2Seq（Sequence to sequence）模型，是將序列（Sequence）映射到序列的神經網絡機器學習模型。
   - 最初GOOGLE設計用於改進機器翻譯技術，可容許機器通過此模型發現及學習將一種語言的語句（詞語序列）映射到另一種語言的對應語句上。
@@ -58,6 +59,7 @@
   - [教電腦寫作：AI球評——Seq2seq模型應用筆記(PyTorch + Python3)](https://gau820827.medium.com/%E6%95%99%E9%9B%BB%E8%85%A6%E5%AF%AB%E4%BD%9C-ai%E7%90%83%E8%A9%95-seq2seq%E6%A8%A1%E5%9E%8B%E6%87%89%E7%94%A8%E7%AD%86%E8%A8%98-pytorch-python3-31e853573dd0) 
 
 ## Pretrained Model == > Large Language Models (LLMs)
+![Transformer.JPG](./Transformer.JPG)
 - Transformer 2017
   - 經典論文[Attention Is All You Need](https://arxiv.org/abs/1706.03762)
   - BOOKS [Transformers for Natural Language Processing - Second Edition(2022)](https://www.packtpub.com/product/transformers-for-natural-language-processing-second-edition/9781803247335) [GITHUB](https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition)
