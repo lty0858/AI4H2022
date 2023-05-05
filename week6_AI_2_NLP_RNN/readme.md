@@ -3,8 +3,13 @@
 - NLTK 工具集 |LTP 工具集
 - 文字向量化 vector representations of words
   - 將文字轉換為向量(文字向量化) 是一種自然語言處理(NLP) 程序。
-  -  此程序會使用語言模型將文字對應至向量空間。 向量空間會以實數向量表示每個文字 
-  -  
+  - 此程序會使用語言模型將文字對應至向量空間。 向量空間會以實數向量表示每個文字 
+  - 各種作法
+    - Label encoding | One Hot encoding [介紹文章](https://medium.com/@PatHuang/%E5%88%9D%E5%AD%B8python%E6%89%8B%E8%A8%98-3-%E8%B3%87%E6%96%99%E5%89%8D%E8%99%95%E7%90%86-label-encoding-one-hot-encoding-85c983d63f87)
+      - sklearn.preprocessing.OneHotEncoder
+    - TF-IDF(Term Frequency - Inverted Document Frequency)
+    - 詞嵌入(Word embedding)
+    - PreTrain model
 
 ## RNN
 - RNN Model
