@@ -1,5 +1,8 @@
 # NLP(Natural language processing) 自然語言處理 
-- NLP(Natural language processing) 自然語言處理
+- NLP(Natural language processing) 自然語言處理 [AWS的介紹](https://aws.amazon.com/tw/what-is/nlp/)
+  - 自然語言處理 (NLP) 是一種機器學習技術，讓電腦能夠解譯、操縱及理解人類語言。
+  - 各企業組織擁有來自各種通訊管道的大量語音和文字資料，例如電子郵件、簡訊、社交媒體新聞摘要、影片、音訊等。
+  - 他們使用 NLP 軟體來自動處理此資料，分析訊息中的意圖或情緒，並即時回應人類通訊。
 - 文字向量化 vector representations of words
   - 將文字轉換為向量(文字向量化) 是一種自然語言處理(NLP) 程序。
   - 此程序會使用語言模型將文字對應至向量空間。 向量空間會以實數向量表示每個文字 
