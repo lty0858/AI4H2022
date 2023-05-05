@@ -13,6 +13,10 @@
     - 詞嵌入(Word embedding)
     - PreTrain model
 
+![BOW.jpg](./BOW.jpg)
+
+圖片來源：[A Bag of Words: Levels of Language](https://sep.com/blog/a-bag-of-words-levels-of-language/)
+
 ## RNN
 - RNN Model
   - RNN
