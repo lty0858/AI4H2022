@@ -7,7 +7,9 @@
   - 各種作法
     - Label encoding | One Hot encoding [介紹文章](https://medium.com/@PatHuang/%E5%88%9D%E5%AD%B8python%E6%89%8B%E8%A8%98-3-%E8%B3%87%E6%96%99%E5%89%8D%E8%99%95%E7%90%86-label-encoding-one-hot-encoding-85c983d63f87)
       - sklearn.preprocessing.OneHotEncoder
-    - TF-IDF(Term Frequency - Inverted Document Frequency)
+    - 詞袋模型（Bag-of-Words Model, BoW）
+      - 詞袋模型是一個基於單詞出現頻率來表示文字的方法，它並不考慮單詞的排列順序、或甚至是文法結構。
+      - TF-IDF(Term Frequency - Inverted Document Frequency)
     - 詞嵌入(Word embedding)
     - PreTrain model
 
