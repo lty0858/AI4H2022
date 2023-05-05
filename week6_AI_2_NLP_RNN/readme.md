@@ -1,6 +1,5 @@
 # NLP(Natural language processing) 自然語言處理 
 - NLP(Natural language processing) 自然語言處理
-- NLTK 工具集 |LTP 工具集
 - 文字向量化 vector representations of words
   - 將文字轉換為向量(文字向量化) 是一種自然語言處理(NLP) 程序。
   - 此程序會使用語言模型將文字對應至向量空間。 向量空間會以實數向量表示每個文字 
