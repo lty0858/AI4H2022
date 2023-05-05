@@ -48,11 +48,8 @@
   - Seq2Seq（Sequence to sequence）模型，是將序列（Sequence）映射到序列的神經網絡機器學習模型。
   - 最初GOOGLE設計用於改進機器翻譯技術，可容許機器通過此模型發現及學習將一種語言的語句（詞語序列）映射到另一種語言的對應語句上。
   - Seq2Seq也能廣泛地應用到各種不同的技術上，如聊天機器人等，但需要有配對好的文本集才能訓練出對應的模型。
-  - [Sequence to Sequence Learning with Neural Networks(2014)](https://arxiv.org/abs/1409.3215)
+  - 經典論文[Sequence to Sequence Learning with Neural Networks(2014)](https://arxiv.org/abs/1409.3215)
   - 最重要的Encoder-Decoder架構
-
-
-Seq2seq是用於自然語言處理的一系列機器學習方法。[3]應用領域包括機器翻譯，圖像描述，對話模型和文本摘要
   - [教電腦寫作：AI球評——Seq2seq模型應用筆記(PyTorch + Python3)](https://gau820827.medium.com/%E6%95%99%E9%9B%BB%E8%85%A6%E5%AF%AB%E4%BD%9C-ai%E7%90%83%E8%A9%95-seq2seq%E6%A8%A1%E5%9E%8B%E6%87%89%E7%94%A8%E7%AD%86%E8%A8%98-pytorch-python3-31e853573dd0) 
 
 ## Pretrained Model == > Large Language Models (LLMs)
